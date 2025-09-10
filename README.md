@@ -19,9 +19,9 @@ Antes de começar, certifique-se de ter:
 ### 1. Escolher onde salvar o projeto
 
 Abra o terminal (PowerShell, Git Bash ou outro) e navegue até a pasta onde deseja salvar o projeto. Exemplo:
-
+```bash
 cd "C:\Users\seu-usuario\Documents"
-
+```
 ### 2. Clonar o repositório
 Com o terminal na pasta desejada, execute:
 
