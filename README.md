@@ -24,15 +24,15 @@ cd "C:\Users\seu-usuario\Documents"
 ```
 ### 2. Clonar o repositório
 Com o terminal na pasta desejada, execute:
-
+```bash
 git clone https://github.com/Dest-cmd/jogo-feira-tecnica.git
-
+```
 Isso criará uma nova pasta chamada jogo-feira-tecnica com todos os arquivos do projeto.
 
 ### 3. Entrar na pasta do projeto
-
+```bash
 cd Jogo-Feira-T-cnica
-
+```
 Agora você está dentro da pasta do projeto e pronto para abrir no Unity.
 
 ### 4. Abrir o projeto no Unity
@@ -48,24 +48,26 @@ Aguarde o carregamento do projeto
 Após editar o projeto, siga os passos abaixo para salvar e enviar suas alterações:
 
 Verificar os arquivos modificados:
-
+```bash
 git status
+```
 Adicionar os arquivos alterados:
-
+```bash
 git add .
-
+```
 Criar um commit com uma mensagem explicando o que foi feito:
-
+```bash
 git commit -m "Descreva aqui o que você alterou"
-
+```
 Enviar as alterações para o repositório online:
-
+```bash
 git push
-
+```
 ### 6. Atualizar antes de começar
 Sempre que for iniciar o trabalho, execute:
+```bash
 git pull
-
+```
 Isso garante que você está com a versão mais atualizada do projeto e evita conflitos.
 
 
