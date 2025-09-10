@@ -32,6 +32,7 @@ Isso criará uma nova pasta chamada jogo-feira-tecnica com todos os arquivos do 
 ### 3. Entrar na pasta do projeto
 
 cd Jogo-Feira-T-cnica
+
 Agora você está dentro da pasta do projeto e pronto para abrir no Unity.
 
 ### 4. Abrir o projeto no Unity
@@ -50,6 +51,7 @@ Verificar os arquivos modificados:
 
 git status
 Adicionar os arquivos alterados:
+
 git add .
 
 Criar um commit com uma mensagem explicando o que foi feito:
@@ -57,6 +59,7 @@ Criar um commit com uma mensagem explicando o que foi feito:
 git commit -m "Descreva aqui o que você alterou"
 
 Enviar as alterações para o repositório online:
+
 git push
 
 ### 6. Atualizar antes de começar
