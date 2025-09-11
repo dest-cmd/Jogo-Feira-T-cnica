@@ -35,6 +35,14 @@ cd Jogo-Feira-T-cnica
 ```
 Agora você está dentro da pasta do projeto e pronto para abrir no Unity.
 
+### NOTA!❗❗❗
+Após isso tu vai ter que cadastrar a tua conta do github com o git no computador.
+Coloca isso:
+```bash
+git config --global user.name "o seu nome do github"
+git config --global user.email "o teu email"
+```
+
 ### 4. Abrir o projeto no Unity
 1.Abra o Unity Hub
 
