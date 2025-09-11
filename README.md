@@ -25,7 +25,7 @@ cd "C:\Users\seu-usuario\Documents"
 ### 2. Clonar o repositório
 Com o terminal na pasta desejada, execute:
 ```bash
-git clone https://github.com/Dest-cmd/Jogo-Feira-T-cnica.git
+git clone https://github.com/dest-cmd/Jogo-Feira-T-cnica.git
 ```
 Isso criará uma nova pasta chamada jogo-feira-tecnica com todos os arquivos do projeto.
 
