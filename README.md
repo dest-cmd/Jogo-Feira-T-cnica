@@ -10,11 +10,11 @@ Antes de começar, certifique-se de ter:
 - [Git](https://git-scm.com/) instalado
 - [Unity Hub](https://unity.com/download) com a versão correta do Unity
 - Conta no [GitHub](https://github.com/)
-- Acesso como colaborador (solicite o Dest-cmd)
+- Acesso como colaborador (Fala o seu nome de usuário e depois aceita no teu email)
 
 ---
 
-## 🚀 Como colaborar com o projeto
+## 🚀 Como colaborar com o trabalho
 
 ### 1. Escolher onde salvar o projeto
 
@@ -35,6 +35,7 @@ cd Jogo-Feira-T-cnica
 ```
 Agora você está dentro da pasta do projeto e pronto para abrir no Unity.
 
+---
 ### NOTA!❗❗❗
 Após isso tu vai ter que cadastrar a tua conta do github com o git no computador.
 Coloca isso:
@@ -42,6 +43,7 @@ Coloca isso:
 git config --global user.name "o seu nome do github"
 git config --global user.email "o teu email"
 ```
+---
 
 ### 4. Abrir o projeto no Unity
 1.Abra o Unity Hub
