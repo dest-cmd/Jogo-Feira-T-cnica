@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Creditos.unity
     guid: 03737d898b493fc4cb28199f7db2e8c5
+<<<<<<< HEAD
   - enabled: 1
     path: Assets/Scenes/Tela de Carregamento.unity
     guid: 336b104fdffa7d14a8416cc7633eba7a
+=======
+>>>>>>> f5016c10548be24a5c7940b4342c03d6acf6d4fc
