@@ -13,6 +13,12 @@ Antes de começar, certifique-se de ter:
 - Acesso como colaborador (Fala o seu nome de usuário e depois aceita no teu email)
 
 ---
+##Sempre que for iniciar o trabalho, execute:
+```bash
+git pull
+```
+Isso garante que você está com a versão mais atualizada do projeto e evita conflitos.
+
 
 ## 🚀 Como colaborar com o trabalho
 
@@ -73,12 +79,3 @@ Enviar as alterações para o repositório online:
 ```bash
 git push
 ```
-### 6. Atualizar antes de começar
-Sempre que for iniciar o trabalho, execute:
-```bash
-git pull
-```
-Isso garante que você está com a versão mais atualizada do projeto e evita conflitos.
-
-
-
