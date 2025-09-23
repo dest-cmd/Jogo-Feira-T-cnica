@@ -57,7 +57,6 @@ Aguarde o carregamento do projeto
 ### 5. Salvar e enviar alterações para o GitHub
 ****LEMBRA DE SALVAR ANTES DE TU FAZER ISSO. (Ctrl S)
 
->>>>>>> f5016c10548be24a5c7940b4342c03d6acf6d4fc
 Após editar o projeto, siga os passos abaixo para salvar e enviar suas alterações:
 
 Verificar os arquivos modificados:
