@@ -21,12 +21,10 @@ public class Load_Scene : MonoBehaviour
 
 		SceneManager.LoadScene("Creditos");
 	}
-
 	public void TeladeCarregamento(){
 
 		SceneManager.LoadScene("Tela de Carregamento");
 	}
-
 
 }
 

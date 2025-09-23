@@ -29,11 +29,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-<<<<<<< HEAD
     filterMode: 0
-=======
-    filterMode: -1
->>>>>>> f5016c10548be24a5c7940b4342c03d6acf6d4fc
     aniso: -1
     mipBias: -1
     wrapU: 1
@@ -69,7 +65,6 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-<<<<<<< HEAD
   - buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -80,8 +75,6 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-=======
->>>>>>> f5016c10548be24a5c7940b4342c03d6acf6d4fc
   spriteSheet:
     serializedVersion: 2
     sprites: []
