@@ -13,7 +13,7 @@ Antes de começar, certifique-se de ter:
 - Acesso como colaborador (Fala o seu nome de usuário e depois aceita no teu email)
 
 ---
-##Sempre que for iniciar o trabalho, execute:
+## Sempre que for iniciar o trabalho, execute:
 ```bash
 git pull
 ```
