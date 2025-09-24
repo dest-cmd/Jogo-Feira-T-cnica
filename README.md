@@ -1,4 +1,4 @@
-# 🎮 Jogo Feira Técnica yoooooooo
+# 🎮 Jogo Feira Técnica yo YO YO
 Este repositório está aberto para colaboração. Siga o tutorial abaixo para contribuir com segurança e organização.
 
 ---
