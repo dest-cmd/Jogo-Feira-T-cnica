@@ -9,7 +9,11 @@ TagManager:
   - Enemy
   - Player1
   - Enemy2
+<<<<<<< HEAD
   - Weapon
+=======
+  - ativar
+>>>>>>> 327243de3403a51a27b386cb72de0a3d83e100ef
   layers:
   - Default
   - TransparentFX
