@@ -25,7 +25,7 @@ public class Bullet : MonoBehaviour
 		// Move a bala
 		transform.Translate(direction * speed * Time.deltaTime, Space.World);
 
-        mousePos = mainCamera.ScreenToWorldPoint(Input.mousePosition);
+        mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
 
         Vector2 lookDir = mousePos - rb.position;
 
