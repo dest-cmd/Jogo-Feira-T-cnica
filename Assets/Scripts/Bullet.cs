@@ -4,7 +4,7 @@ public class Bullet : MonoBehaviour
 {
     public float moveSpeed = 5f;
     public Rigidbody2D rb;
-    public Camera mainCamera;
+    public Camera cam;
 
     Vector2 movement;
     Vector2 mousePos;
