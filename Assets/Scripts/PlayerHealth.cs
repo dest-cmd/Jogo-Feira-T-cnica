@@ -1,76 +1,102 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class PlayerHealth : MonoBehaviour
 {
-	[Header("Vida do Jogador")]
-	public int maxHealth = 100;
-	private int currentHealth;
+    [Header("Vida do Jogador")]
+    public int maxHealth = 100;
+    private int currentHealth;
 
-	[Header("UI")]
-	public Image healthBar;
+    [Header("UI")]
+    public Image healthBar;
 
-	[Header("Dano")]
-	public int damagePerSecond = 10; // quanto de dano por segundo o inimigo causa
-	private bool isTakingDamage = false;
+    [Header("Dano")]
+    public int damagePerSecond = 10;
+    private bool isTakingDamage = false;
 
-	void Start()
-	{
-		currentHealth = maxHealth;
-		UpdateHealthUI();
-	}
+    private Coroutine damageCoroutine;
+    private GameObject currentEnemy; // inimigo atual que está causando dano
 
-	void UpdateHealthUI()
-	{
-		healthBar.fillAmount = (float)currentHealth / maxHealth;
-	}
+    void Start()
+    {
+        currentHealth = maxHealth;
+        UpdateHealthUI();
+    }
 
-	void TakeDamage(int amount)
-	{
-		currentHealth -= amount;
-		if (currentHealth < 0) currentHealth = 0;
+    void UpdateHealthUI()
+    {
+        healthBar.fillAmount = (float)currentHealth / maxHealth;
+    }
 
-		UpdateHealthUI();
+    void TakeDamage(int amount)
+    {
+        currentHealth -= amount;
+        if (currentHealth < 0) currentHealth = 0;
 
-		if (currentHealth <= 0)
-		{
-			Die();
-		}
-	}
+        UpdateHealthUI();
 
-	void Die()
-	{
-		// Carrega a cena "GameOver"
-		SceneManager.LoadScene("GameOver");
-	}
+        if (currentHealth <= 0)
+        {
+            Die();
+        }
+    }
 
-	void OnCollisionStay2D(Collision2D collision)
-	{
-		if (collision.gameObject.CompareTag("Enemy"))
-		{
-			if (!isTakingDamage)
-				StartCoroutine(DamageOverTime());
-		}
-	}
+    void Die()
+    {
+        SceneManager.LoadScene("GameOver");
+    }
 
-	System.Collections.IEnumerator DamageOverTime()
-	{
-		isTakingDamage = true;
-		while (true)
-		{
-			TakeDamage(damagePerSecond);
-			yield return new WaitForSeconds(1f); // aplica dano a cada 1 segundo
-		}
-	}
+    void OnCollisionStay2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            // Se não estiver já tomando dano OU o inimigo mudou
+            if (!isTakingDamage || currentEnemy != collision.gameObject)
+            {
+                if (damageCoroutine != null)
+                    StopCoroutine(damageCoroutine);
 
-	void OnCollisionExit2D(Collision2D collision)
-	{
-		if (collision.gameObject.CompareTag("Enemy"))
-		{
-			isTakingDamage = false;
-			StopAllCoroutines();
-		}
-	}
+                currentEnemy = collision.gameObject;
+                damageCoroutine = StartCoroutine(DamageOverTime());
+            }
+        }
+    }
+
+    IEnumerator DamageOverTime()
+    {
+        isTakingDamage = true;
+
+        while (currentEnemy != null)
+        {
+            TakeDamage(damagePerSecond);
+
+            // Verifica se o inimigo ainda existe
+            if (currentEnemy == null || !currentEnemy.activeInHierarchy)
+            {
+                break;
+            }
+
+            yield return new WaitForSeconds(1f);
+        }
+
+        isTakingDamage = false;
+        damageCoroutine = null;
+    }
+
+    void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject == currentEnemy)
+        {
+            if (damageCoroutine != null)
+                StopCoroutine(damageCoroutine);
+
+            damageCoroutine = null;
+            currentEnemy = null;
+            isTakingDamage = false;
+        }
+    }
 }
-

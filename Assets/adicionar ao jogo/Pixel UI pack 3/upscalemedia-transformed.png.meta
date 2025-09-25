@@ -1,0 +1,5396 @@
+fileFormatVersion: 2
+guid: f547cd8b2b47de54b816b2a5d8abcf98
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: upscalemedia-transformed_0
+    21300002: upscalemedia-transformed_1
+    21300004: upscalemedia-transformed_2
+    21300006: upscalemedia-transformed_3
+    21300008: upscalemedia-transformed_4
+    21300010: upscalemedia-transformed_5
+    21300012: upscalemedia-transformed_6
+    21300014: upscalemedia-transformed_7
+    21300016: upscalemedia-transformed_8
+    21300018: upscalemedia-transformed_9
+    21300020: upscalemedia-transformed_10
+    21300022: upscalemedia-transformed_11
+    21300024: upscalemedia-transformed_12
+    21300026: upscalemedia-transformed_13
+    21300028: upscalemedia-transformed_14
+    21300030: upscalemedia-transformed_15
+    21300032: upscalemedia-transformed_16
+    21300034: upscalemedia-transformed_17
+    21300036: upscalemedia-transformed_18
+    21300038: upscalemedia-transformed_19
+    21300040: upscalemedia-transformed_20
+    21300042: upscalemedia-transformed_21
+    21300044: upscalemedia-transformed_22
+    21300046: upscalemedia-transformed_23
+    21300048: upscalemedia-transformed_24
+    21300050: upscalemedia-transformed_25
+    21300052: upscalemedia-transformed_26
+    21300054: upscalemedia-transformed_27
+    21300056: upscalemedia-transformed_28
+    21300058: upscalemedia-transformed_29
+    21300060: upscalemedia-transformed_30
+    21300062: upscalemedia-transformed_31
+    21300064: upscalemedia-transformed_32
+    21300066: upscalemedia-transformed_33
+    21300068: upscalemedia-transformed_34
+    21300070: upscalemedia-transformed_35
+    21300072: upscalemedia-transformed_36
+    21300074: upscalemedia-transformed_37
+    21300076: upscalemedia-transformed_38
+    21300078: upscalemedia-transformed_39
+    21300080: upscalemedia-transformed_40
+    21300082: upscalemedia-transformed_41
+    21300084: upscalemedia-transformed_42
+    21300086: upscalemedia-transformed_43
+    21300088: upscalemedia-transformed_44
+    21300090: upscalemedia-transformed_45
+    21300092: upscalemedia-transformed_46
+    21300094: upscalemedia-transformed_47
+    21300096: upscalemedia-transformed_48
+    21300098: upscalemedia-transformed_49
+    21300100: upscalemedia-transformed_50
+    21300102: upscalemedia-transformed_51
+    21300104: upscalemedia-transformed_52
+    21300106: upscalemedia-transformed_53
+    21300108: upscalemedia-transformed_54
+    21300110: upscalemedia-transformed_55
+    21300112: upscalemedia-transformed_56
+    21300114: upscalemedia-transformed_57
+    21300116: upscalemedia-transformed_58
+    21300118: upscalemedia-transformed_59
+    21300120: upscalemedia-transformed_60
+    21300122: upscalemedia-transformed_61
+    21300124: upscalemedia-transformed_62
+    21300126: upscalemedia-transformed_63
+    21300128: upscalemedia-transformed_64
+    21300130: upscalemedia-transformed_65
+    21300132: upscalemedia-transformed_66
+    21300134: upscalemedia-transformed_67
+    21300136: upscalemedia-transformed_68
+    21300138: upscalemedia-transformed_69
+    21300140: upscalemedia-transformed_70
+    21300142: upscalemedia-transformed_71
+    21300144: upscalemedia-transformed_72
+    21300146: upscalemedia-transformed_73
+    21300148: upscalemedia-transformed_74
+    21300150: upscalemedia-transformed_75
+    21300152: upscalemedia-transformed_76
+    21300154: upscalemedia-transformed_77
+    21300156: upscalemedia-transformed_78
+    21300158: upscalemedia-transformed_79
+    21300160: upscalemedia-transformed_80
+    21300162: upscalemedia-transformed_81
+    21300164: upscalemedia-transformed_82
+    21300166: upscalemedia-transformed_83
+    21300168: upscalemedia-transformed_84
+    21300170: upscalemedia-transformed_85
+    21300172: upscalemedia-transformed_86
+    21300174: upscalemedia-transformed_87
+    21300176: upscalemedia-transformed_88
+    21300178: upscalemedia-transformed_89
+    21300180: upscalemedia-transformed_90
+    21300182: upscalemedia-transformed_91
+    21300184: upscalemedia-transformed_92
+    21300186: upscalemedia-transformed_93
+    21300188: upscalemedia-transformed_94
+    21300190: upscalemedia-transformed_95
+    21300192: upscalemedia-transformed_96
+    21300194: upscalemedia-transformed_97
+    21300196: upscalemedia-transformed_98
+    21300198: upscalemedia-transformed_99
+    21300200: upscalemedia-transformed_100
+    21300202: upscalemedia-transformed_101
+    21300204: upscalemedia-transformed_102
+    21300206: upscalemedia-transformed_103
+    21300208: upscalemedia-transformed_104
+    21300210: upscalemedia-transformed_105
+    21300212: upscalemedia-transformed_106
+    21300214: upscalemedia-transformed_107
+    21300216: upscalemedia-transformed_108
+    21300218: upscalemedia-transformed_109
+    21300220: upscalemedia-transformed_110
+    21300222: upscalemedia-transformed_111
+    21300224: upscalemedia-transformed_112
+    21300226: upscalemedia-transformed_113
+    21300228: upscalemedia-transformed_114
+    21300230: upscalemedia-transformed_115
+    21300232: upscalemedia-transformed_116
+    21300234: upscalemedia-transformed_117
+    21300236: upscalemedia-transformed_118
+    21300238: upscalemedia-transformed_119
+    21300240: upscalemedia-transformed_120
+    21300242: upscalemedia-transformed_121
+    21300244: upscalemedia-transformed_122
+    21300246: upscalemedia-transformed_123
+    21300248: upscalemedia-transformed_124
+    21300250: upscalemedia-transformed_125
+    21300252: upscalemedia-transformed_126
+    21300254: upscalemedia-transformed_127
+    21300256: upscalemedia-transformed_128
+    21300258: upscalemedia-transformed_129
+    21300260: upscalemedia-transformed_130
+    21300262: upscalemedia-transformed_131
+    21300264: upscalemedia-transformed_132
+    21300266: upscalemedia-transformed_133
+    21300268: upscalemedia-transformed_134
+    21300270: upscalemedia-transformed_135
+    21300272: upscalemedia-transformed_136
+    21300274: upscalemedia-transformed_137
+    21300276: upscalemedia-transformed_138
+    21300278: upscalemedia-transformed_139
+    21300280: upscalemedia-transformed_140
+    21300282: upscalemedia-transformed_141
+    21300284: upscalemedia-transformed_142
+    21300286: upscalemedia-transformed_143
+    21300288: upscalemedia-transformed_144
+    21300290: upscalemedia-transformed_145
+    21300292: upscalemedia-transformed_146
+    21300294: upscalemedia-transformed_147
+    21300296: upscalemedia-transformed_148
+    21300298: upscalemedia-transformed_149
+    21300300: upscalemedia-transformed_150
+    21300302: upscalemedia-transformed_151
+    21300304: upscalemedia-transformed_152
+    21300306: upscalemedia-transformed_153
+    21300308: upscalemedia-transformed_154
+    21300310: upscalemedia-transformed_155
+    21300312: upscalemedia-transformed_156
+    21300314: upscalemedia-transformed_157
+    21300316: upscalemedia-transformed_158
+    21300318: upscalemedia-transformed_159
+    21300320: upscalemedia-transformed_160
+    21300322: upscalemedia-transformed_161
+    21300324: upscalemedia-transformed_162
+    21300326: upscalemedia-transformed_163
+    21300328: upscalemedia-transformed_164
+    21300330: upscalemedia-transformed_165
+    21300332: upscalemedia-transformed_166
+    21300334: upscalemedia-transformed_167
+    21300336: upscalemedia-transformed_168
+    21300338: upscalemedia-transformed_169
+    21300340: upscalemedia-transformed_170
+    21300342: upscalemedia-transformed_171
+    21300344: upscalemedia-transformed_172
+    21300346: upscalemedia-transformed_173
+    21300348: upscalemedia-transformed_174
+    21300350: upscalemedia-transformed_175
+    21300352: upscalemedia-transformed_176
+    21300354: upscalemedia-transformed_177
+    21300356: upscalemedia-transformed_178
+    21300358: upscalemedia-transformed_179
+    21300360: upscalemedia-transformed_180
+    21300362: upscalemedia-transformed_181
+    21300364: upscalemedia-transformed_182
+    21300366: upscalemedia-transformed_183
+    21300368: upscalemedia-transformed_184
+    21300370: upscalemedia-transformed_185
+    21300372: upscalemedia-transformed_186
+    21300374: upscalemedia-transformed_187
+    21300376: upscalemedia-transformed_188
+    21300378: upscalemedia-transformed_189
+    21300380: upscalemedia-transformed_190
+    21300382: upscalemedia-transformed_191
+    21300384: upscalemedia-transformed_192
+    21300386: upscalemedia-transformed_193
+    21300388: upscalemedia-transformed_194
+    21300390: upscalemedia-transformed_195
+    21300392: upscalemedia-transformed_196
+    21300394: upscalemedia-transformed_197
+    21300396: upscalemedia-transformed_198
+    21300398: upscalemedia-transformed_199
+    21300400: upscalemedia-transformed_200
+    21300402: upscalemedia-transformed_201
+    21300404: upscalemedia-transformed_202
+    21300406: upscalemedia-transformed_203
+    21300408: upscalemedia-transformed_204
+    21300410: upscalemedia-transformed_205
+    21300412: upscalemedia-transformed_206
+    21300414: upscalemedia-transformed_207
+    21300416: upscalemedia-transformed_208
+    21300418: upscalemedia-transformed_209
+    21300420: upscalemedia-transformed_210
+    21300422: upscalemedia-transformed_211
+    21300424: upscalemedia-transformed_212
+    21300426: upscalemedia-transformed_213
+    21300428: upscalemedia-transformed_214
+    21300430: upscalemedia-transformed_215
+    21300432: upscalemedia-transformed_216
+    21300434: upscalemedia-transformed_217
+    21300436: upscalemedia-transformed_218
+    21300438: upscalemedia-transformed_219
+    21300440: upscalemedia-transformed_220
+    21300442: upscalemedia-transformed_221
+    21300444: upscalemedia-transformed_222
+    21300446: upscalemedia-transformed_223
+    21300448: upscalemedia-transformed_224
+    21300450: upscalemedia-transformed_225
+    21300452: upscalemedia-transformed_226
+    21300454: upscalemedia-transformed_227
+    21300456: upscalemedia-transformed_228
+    21300458: upscalemedia-transformed_229
+    21300460: upscalemedia-transformed_230
+    21300462: upscalemedia-transformed_231
+    21300464: upscalemedia-transformed_232
+    21300466: upscalemedia-transformed_233
+    21300468: upscalemedia-transformed_234
+    21300470: upscalemedia-transformed_235
+    21300472: upscalemedia-transformed_236
+    21300474: upscalemedia-transformed_237
+    21300476: upscalemedia-transformed_238
+    21300478: upscalemedia-transformed_239
+    21300480: upscalemedia-transformed_240
+    21300482: upscalemedia-transformed_241
+    21300484: upscalemedia-transformed_242
+    21300486: upscalemedia-transformed_243
+    21300488: upscalemedia-transformed_244
+    21300490: upscalemedia-transformed_245
+    21300492: upscalemedia-transformed_246
+    21300494: upscalemedia-transformed_247
+    21300496: upscalemedia-transformed_248
+    21300498: upscalemedia-transformed_249
+    21300500: upscalemedia-transformed_250
+    21300502: upscalemedia-transformed_251
+    21300504: upscalemedia-transformed_252
+    21300506: upscalemedia-transformed_253
+    21300508: upscalemedia-transformed_254
+    21300510: upscalemedia-transformed_255
+    21300512: upscalemedia-transformed_256
+    21300514: upscalemedia-transformed_257
+    21300516: upscalemedia-transformed_258
+    21300518: upscalemedia-transformed_259
+    21300520: upscalemedia-transformed_260
+    21300522: upscalemedia-transformed_261
+    21300524: upscalemedia-transformed_262
+    21300526: upscalemedia-transformed_263
+    21300528: upscalemedia-transformed_264
+    21300530: upscalemedia-transformed_265
+    21300532: upscalemedia-transformed_266
+    21300534: upscalemedia-transformed_267
+    21300536: upscalemedia-transformed_268
+    21300538: upscalemedia-transformed_269
+    21300540: upscalemedia-transformed_270
+    21300542: upscalemedia-transformed_271
+    21300544: upscalemedia-transformed_272
+    21300546: upscalemedia-transformed_273
+    21300548: upscalemedia-transformed_274
+    21300550: upscalemedia-transformed_275
+    21300552: upscalemedia-transformed_276
+    21300554: upscalemedia-transformed_277
+    21300556: upscalemedia-transformed_278
+    21300558: upscalemedia-transformed_279
+    21300560: upscalemedia-transformed_280
+    21300562: upscalemedia-transformed_281
+    21300564: upscalemedia-transformed_282
+    21300566: upscalemedia-transformed_283
+    21300568: upscalemedia-transformed_284
+    21300570: upscalemedia-transformed_285
+    21300572: upscalemedia-transformed_286
+    21300574: upscalemedia-transformed_287
+    21300576: upscalemedia-transformed_288
+    21300578: upscalemedia-transformed_289
+    21300580: upscalemedia-transformed_290
+    21300582: upscalemedia-transformed_291
+    21300584: upscalemedia-transformed_292
+    21300586: upscalemedia-transformed_293
+    21300588: upscalemedia-transformed_294
+    21300590: upscalemedia-transformed_295
+    21300592: upscalemedia-transformed_296
+    21300594: upscalemedia-transformed_297
+    21300596: upscalemedia-transformed_298
+    21300598: upscalemedia-transformed_299
+    21300600: upscalemedia-transformed_300
+    21300602: upscalemedia-transformed_301
+    21300604: upscalemedia-transformed_302
+    21300606: upscalemedia-transformed_303
+    21300608: upscalemedia-transformed_304
+    21300610: upscalemedia-transformed_305
+    21300612: upscalemedia-transformed_306
+    21300614: upscalemedia-transformed_307
+    21300616: upscalemedia-transformed_308
+    21300618: upscalemedia-transformed_309
+    21300620: upscalemedia-transformed_310
+    21300622: upscalemedia-transformed_311
+    21300624: upscalemedia-transformed_312
+    21300626: upscalemedia-transformed_313
+    21300628: upscalemedia-transformed_314
+    21300630: upscalemedia-transformed_315
+    21300632: upscalemedia-transformed_316
+    21300634: upscalemedia-transformed_317
+    21300636: upscalemedia-transformed_318
+    21300638: upscalemedia-transformed_319
+    21300640: upscalemedia-transformed_320
+    21300642: upscalemedia-transformed_321
+    21300644: upscalemedia-transformed_322
+    21300646: upscalemedia-transformed_323
+    21300648: upscalemedia-transformed_324
+    21300650: upscalemedia-transformed_325
+    21300652: upscalemedia-transformed_326
+    21300654: upscalemedia-transformed_327
+    21300656: upscalemedia-transformed_328
+    21300658: upscalemedia-transformed_329
+    21300660: upscalemedia-transformed_330
+    21300662: upscalemedia-transformed_331
+    21300664: upscalemedia-transformed_332
+    21300666: upscalemedia-transformed_333
+    21300668: upscalemedia-transformed_334
+    21300670: upscalemedia-transformed_335
+    21300672: upscalemedia-transformed_336
+    21300674: upscalemedia-transformed_337
+    21300676: upscalemedia-transformed_338
+    21300678: upscalemedia-transformed_339
+    21300680: upscalemedia-transformed_340
+    21300682: upscalemedia-transformed_341
+    21300684: upscalemedia-transformed_342
+    21300686: upscalemedia-transformed_343
+    21300688: upscalemedia-transformed_344
+    21300690: upscalemedia-transformed_345
+    21300692: upscalemedia-transformed_346
+    21300694: upscalemedia-transformed_347
+    21300696: upscalemedia-transformed_348
+    21300698: upscalemedia-transformed_349
+    21300700: upscalemedia-transformed_350
+    21300702: upscalemedia-transformed_351
+    21300704: upscalemedia-transformed_352
+    21300706: upscalemedia-transformed_353
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: upscalemedia-transformed_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 776
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_1
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 954
+        width: 112
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_2
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 954
+        width: 112
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_3
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 954
+        width: 112
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_4
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 954
+        width: 112
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_5
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 954
+        width: 112
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_6
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 954
+        width: 112
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_7
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 915
+        width: 4
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_8
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 898
+        width: 106
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_9
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 898
+        width: 106
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_10
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 898
+        width: 106
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_11
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 898
+        width: 106
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_12
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 898
+        width: 106
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_13
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 898
+        width: 106
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 836
+        width: 189
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_15
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 867
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_16
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 836
+        width: 189
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_17
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 867
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_18
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 836
+        width: 189
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_19
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 867
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_20
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 836
+        width: 189
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_21
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 867
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_22
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 836
+        width: 189
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_23
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 867
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 788
+        width: 189
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_25
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 803
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_26
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 772
+        width: 189
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_27
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 803
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_28
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 772
+        width: 189
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_29
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 803
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_30
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 772
+        width: 189
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_31
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 803
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_32
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 772
+        width: 189
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_33
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 803
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 708
+        width: 189
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_35
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 739
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_36
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 708
+        width: 189
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_37
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 739
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_38
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 708
+        width: 189
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_39
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 739
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_40
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 708
+        width: 189
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_41
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 739
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_42
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 708
+        width: 189
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_43
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 739
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 644
+        width: 189
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_45
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 675
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_46
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 644
+        width: 189
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_47
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 675
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_48
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 644
+        width: 189
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_49
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 675
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_50
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 644
+        width: 189
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_51
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 675
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_52
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 644
+        width: 189
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_53
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 675
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 580
+        width: 189
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_55
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 611
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_56
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 580
+        width: 189
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_57
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 611
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_58
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 580
+        width: 189
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_59
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 611
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_60
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 580
+        width: 189
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_61
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 611
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_62
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 580
+        width: 189
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_63
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 611
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 516
+        width: 189
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_65
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 547
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_66
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 516
+        width: 189
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_67
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 547
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_68
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 516
+        width: 189
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_69
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 547
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_70
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 516
+        width: 189
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_71
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 547
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_72
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 516
+        width: 189
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_73
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 547
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_74
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 452
+        width: 108
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_75
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 452
+        width: 108
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_76
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 452
+        width: 129
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_77
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 502
+        width: 100
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_78
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 452
+        width: 126
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_79
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 502
+        width: 100
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_80
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 452
+        width: 126
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_81
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 502
+        width: 100
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_82
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 452
+        width: 126
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_83
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 502
+        width: 100
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_84
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 452
+        width: 126
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_85
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 502
+        width: 100
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_86
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 452
+        width: 129
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_87
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 502
+        width: 100
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_88
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 471
+        width: 4
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_89
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 471
+        width: 4
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_90
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 471
+        width: 4
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_91
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 471
+        width: 4
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_92
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 471
+        width: 4
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_93
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 471
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_94
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 471
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_95
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 471
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_96
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 471
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_97
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 471
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_98
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 471
+        width: 4
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_99
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 454
+        width: 94
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_100
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 454
+        width: 94
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_101
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 454
+        width: 94
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_102
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 454
+        width: 94
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_103
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 454
+        width: 94
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_104
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 454
+        width: 94
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_105
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 394
+        width: 68
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_106
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 394
+        width: 68
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_107
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 392
+        width: 90
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_108
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 434
+        width: 64
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_109
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 392
+        width: 90
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_110
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 434
+        width: 64
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_111
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 392
+        width: 90
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_112
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 434
+        width: 64
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_113
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 392
+        width: 90
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_114
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 434
+        width: 64
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_115
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 392
+        width: 90
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_116
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 434
+        width: 64
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_117
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 421
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_118
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 421
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_119
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 421
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_120
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 421
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_121
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 411
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_122
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 411
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_123
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 411
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_124
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 411
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_125
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 411
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_126
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 411
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_127
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 411
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_128
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 411
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_129
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 411
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_130
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 411
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_131
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 411
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_132
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 411
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_133
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 411
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_134
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 411
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_135
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 398
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_136
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 398
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_137
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 398
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_138
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 398
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_139
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 394
+        width: 58
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_140
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 394
+        width: 58
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_141
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 394
+        width: 58
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_142
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 394
+        width: 58
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_143
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 394
+        width: 58
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_144
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 324
+        width: 108
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_145
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 324
+        width: 108
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_146
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 324
+        width: 129
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_147
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 374
+        width: 100
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_148
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 324
+        width: 126
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_149
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 374
+        width: 100
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_150
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 324
+        width: 126
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_151
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 374
+        width: 100
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_152
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 324
+        width: 126
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_153
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 374
+        width: 100
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_154
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 324
+        width: 126
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_155
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 374
+        width: 100
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_156
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 324
+        width: 129
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_157
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 374
+        width: 100
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_158
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 343
+        width: 4
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_159
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 343
+        width: 4
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_160
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 343
+        width: 4
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_161
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 343
+        width: 4
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_162
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 343
+        width: 4
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_163
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 343
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_164
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 343
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_165
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 343
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_166
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 343
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_167
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 343
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_168
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 343
+        width: 4
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_169
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 326
+        width: 94
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_170
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 326
+        width: 94
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_171
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 326
+        width: 94
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_172
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 326
+        width: 94
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_173
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 326
+        width: 94
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_174
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 326
+        width: 94
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_175
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 266
+        width: 68
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_176
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 266
+        width: 68
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_177
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 264
+        width: 90
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_178
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 306
+        width: 64
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_179
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 264
+        width: 90
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_180
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 306
+        width: 64
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_181
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 264
+        width: 90
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_182
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 306
+        width: 64
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_183
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 264
+        width: 90
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_184
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 306
+        width: 64
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_185
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 264
+        width: 90
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_186
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 306
+        width: 64
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_187
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 293
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_188
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 293
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_189
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 293
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_190
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 293
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_191
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 283
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_192
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 283
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_193
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 283
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_194
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 283
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_195
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 283
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_196
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 283
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_197
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 283
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_198
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 283
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_199
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 283
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_200
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 283
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_201
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 283
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_202
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 283
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_203
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 283
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_204
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 283
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_205
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 270
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_206
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 270
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_207
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 270
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_208
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 270
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_209
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 266
+        width: 58
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_210
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 266
+        width: 58
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_211
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 266
+        width: 58
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_212
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 266
+        width: 58
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_213
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 266
+        width: 58
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_214
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 196
+        width: 108
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_215
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 196
+        width: 108
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_216
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 196
+        width: 129
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_217
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 246
+        width: 100
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_218
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 196
+        width: 126
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_219
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 246
+        width: 100
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_220
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 196
+        width: 126
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_221
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 246
+        width: 100
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_222
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 196
+        width: 126
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_223
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 246
+        width: 100
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_224
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 196
+        width: 126
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_225
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 246
+        width: 100
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_226
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 196
+        width: 129
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_227
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 246
+        width: 100
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_228
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 215
+        width: 4
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_229
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 215
+        width: 4
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_230
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 215
+        width: 4
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_231
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 215
+        width: 4
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_232
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 215
+        width: 4
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_233
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 215
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_234
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 215
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_235
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 215
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_236
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 215
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_237
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 215
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_238
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 215
+        width: 4
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_239
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 198
+        width: 94
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_240
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 198
+        width: 94
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_241
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 198
+        width: 94
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_242
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 198
+        width: 94
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_243
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 198
+        width: 94
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_244
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 198
+        width: 94
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_245
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 138
+        width: 68
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_246
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 138
+        width: 68
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_247
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 136
+        width: 90
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_248
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 178
+        width: 64
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_249
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 136
+        width: 90
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_250
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 178
+        width: 64
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_251
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 136
+        width: 90
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_252
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 178
+        width: 64
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_253
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 136
+        width: 90
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_254
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 178
+        width: 64
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_255
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 136
+        width: 90
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_256
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 178
+        width: 64
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_257
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 165
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_258
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 165
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_259
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 165
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_260
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 165
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_261
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 155
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_262
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 155
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_263
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 155
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_264
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 155
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_265
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 155
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_266
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 155
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_267
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 155
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_268
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 155
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_269
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 155
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_270
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 155
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_271
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 155
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_272
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 155
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_273
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 155
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_274
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 155
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_275
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 142
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_276
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 142
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_277
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 142
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_278
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 142
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_279
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 138
+        width: 58
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_280
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 138
+        width: 58
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_281
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 138
+        width: 58
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_282
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 138
+        width: 58
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_283
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 138
+        width: 58
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_284
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 68
+        width: 108
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_285
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 68
+        width: 108
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_286
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 68
+        width: 129
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_287
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 118
+        width: 100
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_288
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 68
+        width: 126
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_289
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 118
+        width: 100
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_290
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 68
+        width: 126
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_291
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 118
+        width: 100
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_292
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 68
+        width: 126
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_293
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 118
+        width: 100
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_294
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 68
+        width: 126
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_295
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 118
+        width: 100
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_296
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 68
+        width: 129
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_297
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 118
+        width: 100
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_298
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 87
+        width: 4
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_299
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 87
+        width: 4
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_300
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 87
+        width: 4
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_301
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 87
+        width: 4
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_302
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 87
+        width: 4
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_303
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 87
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_304
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 87
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_305
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 87
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_306
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 87
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_307
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 87
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_308
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 87
+        width: 4
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_309
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 70
+        width: 94
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_310
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 70
+        width: 94
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_311
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 70
+        width: 94
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_312
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 70
+        width: 94
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_313
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 70
+        width: 94
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_314
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 70
+        width: 94
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_315
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 10
+        width: 68
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_316
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 10
+        width: 68
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_317
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 8
+        width: 90
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_318
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 50
+        width: 64
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_319
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 8
+        width: 90
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_320
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 50
+        width: 64
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_321
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 8
+        width: 90
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_322
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 50
+        width: 64
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_323
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 8
+        width: 90
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_324
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 50
+        width: 64
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_325
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 8
+        width: 90
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_326
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 50
+        width: 64
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_327
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 37
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_328
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 37
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_329
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 37
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_330
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 37
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_331
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 27
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_332
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 27
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_333
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 27
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_334
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 27
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_335
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 27
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_336
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 27
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_337
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 27
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_338
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 27
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_339
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 27
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_340
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 27
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_341
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 27
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_342
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 27
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_343
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 27
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_344
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 27
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_345
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 14
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_346
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 14
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_347
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 14
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_348
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 14
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_349
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 10
+        width: 58
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_350
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 10
+        width: 58
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_351
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 10
+        width: 58
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_352
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 10
+        width: 58
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upscalemedia-transformed_353
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 10
+        width: 58
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
