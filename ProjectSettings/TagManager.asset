@@ -9,6 +9,7 @@ TagManager:
   - Enemy
   - Player1
   - Enemy2
+  - ativar
   layers:
   - Default
   - TransparentFX
