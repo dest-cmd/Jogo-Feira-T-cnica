@@ -1201,7 +1201,7 @@ SpriteRenderer:
   m_Size: {x: 6.45, y: 6.45}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
 --- !u!1 &264268804
 GameObject:
@@ -1626,7 +1626,7 @@ SpriteRenderer:
   m_Size: {x: 6.45, y: 6.45}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
 --- !u!4 &339246593
 Transform:
@@ -3798,12 +3798,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93343d4213af89042bdce928a047ced9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 1127891407124336, guid: b3f4b295c58b5a24f88f01d30675fc55,
-    type: 2}
-  spawnRate: 0
-  spawnRadius: 12
-  maxEnemies: 0
-  spawnOnStart: 1
 --- !u!1 &962446276
 GameObject:
   m_ObjectHideFlags: 0
