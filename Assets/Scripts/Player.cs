@@ -2,31 +2,37 @@
 
 public class Player : MonoBehaviour
 {
-    public float moveSpeed = 5f;
-    public Rigidbody2D rb;
-    public Camera cam;
+	public float moveSpeed = 5f;
+	public Rigidbody2D rb;
+	public Camera cam;
 
-    Vector2 movement;
-    Vector2 mousePos;
+	Vector2 movement;
+	Vector2 mousePos;
 
-    void Update()
-    {
-        // Movimento com teclado
-        movement.x = Input.GetAxisRaw("Horizontal");
-        movement.y = Input.GetAxisRaw("Vertical");
+	void Update()
+	{
+		// Pega posição do mouse no mundo
+		mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
 
-        // Posição do mouse na tela, convertida para o mundo
-        mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
-    }
+		// Movimento com teclado (WASD)
+		movement = Vector2.zero;
+		if (Input.GetKey(KeyCode.W)) movement.y = 1;
+		if (Input.GetKey(KeyCode.S)) movement.y = -1;
+		if (Input.GetKey(KeyCode.A)) movement.x = -1;
+		if (Input.GetKey(KeyCode.D)) movement.x = 1;
 
-    void FixedUpdate()
-    {
-        // Aplica movimento ao Rigidbody2D
-        rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+		// Normaliza para evitar movimento mais rápido na diagonal
+		movement = movement.normalized;
+	}
 
-        // Gira o player para olhar o mouse
-        Vector2 lookDir = mousePos - rb.position;
-        float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f;
-        rb.rotation = angle;
-    }
+	void FixedUpdate()
+	{
+		// Move o player
+		rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+
+		// Rotaciona o player para olhar o mouse
+		Vector2 lookDir = mousePos - rb.position;
+		float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f;
+		rb.rotation = angle;
+	}
 }
