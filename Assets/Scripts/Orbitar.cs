@@ -1,42 +1,53 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
-public class Orbitar : MonoBehaviour {
-	public Transform personagem;        
-	public float velocidade = 100f;     
-	public float raio = 2f;             
+public class Orbitar : MonoBehaviour
+{
+	[Header("Referências")]
+	public Transform personagem;
+	[HideInInspector] public ControladorDeOrbitadores controlador;
+
+	[Header("Configuração da Órbita")]
+	public float velocidade = 100f;
+	public float raio = 2f;
+
+	[Header("Renderização")]
+	public string layerAtivado = "Poder";
+	public int orderInLayer = 5;
+
+	[Header("Collider")]
+	public float raioCollider = 0.5f;
+	public float delayCollider = 0.1f;
+
+	[Header("Controle")]
+	public int indiceOrbita = 0;
+	public int quantidadeTotal = 1;
+
 	private float angulo = 0f;
-
 	private SpriteRenderer spriteRenderer;
 	private CircleCollider2D circleCollider;
-	private CircleCollider2D gatilhoCollider; // para ativar poder
-	private bool ativado = false;       
+	private bool ativado = false;
 
-	// Configurações do poder
-	public string layerAtivado = "Poder";
-	public int orderInLayer = 5;        
-	public float raioCollider = 0.5f;   
-	public string tagAtivador = "ativar"; 
-
-	void Start()
+	void Awake()
 	{
 		spriteRenderer = GetComponent<SpriteRenderer>();
 		if (spriteRenderer != null)
-			spriteRenderer.enabled = false; // começa invisível
+			spriteRenderer.enabled = false;
 
-		// Collider principal do poder
 		circleCollider = GetComponent<CircleCollider2D>();
 		if (circleCollider == null)
-		{
 			circleCollider = gameObject.AddComponent<CircleCollider2D>();
-			circleCollider.radius = raioCollider;
-		}
-		circleCollider.enabled = false; // só ativa ao orbitar
+
+		circleCollider.radius = raioCollider;
+		circleCollider.enabled = false;
 		circleCollider.isTrigger = true;
 
-		// Collider apenas para ativação
-		gatilhoCollider = gameObject.AddComponent<CircleCollider2D>();
-		gatilhoCollider.radius = 0.1f; // pequeno, só para detecção
-		gatilhoCollider.isTrigger = true;
+		if (GetComponent<Rigidbody2D>() == null)
+		{
+			Rigidbody2D rb = gameObject.AddComponent<Rigidbody2D>();
+			rb.bodyType = RigidbodyType2D.Kinematic;
+			rb.simulated = true;
+		}
 	}
 
 	void Update()
@@ -45,43 +56,73 @@ public class Orbitar : MonoBehaviour {
 
 		angulo += velocidade * Time.deltaTime;
 
-		float x = Mathf.Cos(angulo * Mathf.Deg2Rad) * raio;
-		float y = Mathf.Sin(angulo * Mathf.Deg2Rad) * raio;
+		int total = Mathf.Max(1, quantidadeTotal);
+		int idx = ((indiceOrbita % total) + total) % total;
 
-		transform.position = new Vector3(personagem.position.x + x,
+		float deslocamento = 360f / total;
+		float anguloFinal = angulo + deslocamento * idx;
+
+		float x = Mathf.Cos(anguloFinal * Mathf.Deg2Rad) * raio;
+		float y = Mathf.Sin(anguloFinal * Mathf.Deg2Rad) * raio;
+
+		transform.position = new Vector3(
+			personagem.position.x + x,
 			personagem.position.y + y,
-			transform.position.z);
+			transform.position.z
+		);
 	}
 
 	void OnTriggerEnter2D(Collider2D collision)
 	{
-		if (collision.CompareTag(tagAtivador) && !ativado)
-		{
-			AtivarPoder();
-		}
+		if (!ativado) return;
 
-		if (ativado)
+		if (collision.CompareTag("Enemy"))
 		{
-			if (collision.CompareTag("Enemy"))
-				Destroy(collision.gameObject);
-			else if (collision.CompareTag("Obstacle"))
-				Destroy(gameObject);
+			Destroy(collision.gameObject);
+		}
+		else if (collision.CompareTag("Obstacle"))
+		{
+			if (controlador != null)
+				controlador.RemoverOrbitador(this);
+
+			Destroy(gameObject);
 		}
 	}
 
-	void AtivarPoder()
+	public void Ativar()
 	{
 		ativado = true;
 
-		if (spriteRenderer == null)
-		{
+		if (spriteRenderer != null)
 			spriteRenderer.enabled = true;
-			spriteRenderer.sortingOrder = orderInLayer;
-		}
 
-		if (circleCollider == null)
+		StartCoroutine(AtivarColliderComDelay());
+
+		int layerIndex = LayerMask.NameToLayer(layerAtivado);
+		if (layerIndex != -1)
+			gameObject.layer = layerIndex;
+	}
+
+	private IEnumerator AtivarColliderComDelay()
+	{
+		yield return new WaitForSeconds(delayCollider);
+		if (circleCollider != null)
 			circleCollider.enabled = true;
+	}
 
-		gameObject.layer = LayerMask.NameToLayer(layerAtivado);
+	public void Desativar()
+	{
+		ativado = false;
+		if (spriteRenderer != null)
+			spriteRenderer.enabled = false;
+		if (circleCollider != null)
+			circleCollider.enabled = false;
+
+		gameObject.layer = LayerMask.NameToLayer("Default");
+	}
+
+	public void SetAnguloInicial(float ang)
+	{
+		angulo = ang;
 	}
 }

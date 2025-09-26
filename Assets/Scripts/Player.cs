@@ -2,44 +2,31 @@
 
 public class Player : MonoBehaviour
 {
-	[Header("Movimento")]
-	public float speed = 5f;                // Velocidade do player
+    public float moveSpeed = 5f;
+    public Rigidbody2D rb;
+    public Camera cam;
 
-	[Header("Rotação")]
-	public float rotationOffset = -90f;     // Ajuste para alinhar o sprite com a mira
+    Vector2 movement;
+    Vector2 mousePos;
 
-	private Rigidbody2D rb;
-	private Vector2 moveInput;
+    void Update()
+    {
+        // Movimento com teclado
+        movement.x = Input.GetAxisRaw("Horizontal");
+        movement.y = Input.GetAxisRaw("Vertical");
 
-	void Start()
-	{
-		rb = GetComponent<Rigidbody2D>();
-	}
+        // Posição do mouse na tela, convertida para o mundo
+        mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
+    }
 
-	void Update()
-	{
-		// Captura o input de movimento
-		moveInput.x = Input.GetAxisRaw("Horizontal");
-		moveInput.y = Input.GetAxisRaw("Vertical");
+    void FixedUpdate()
+    {
+        // Aplica movimento ao Rigidbody2D
+        rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
 
-		// Faz o player olhar para o mouse
-		LookAtMouse();
-	}
-
-	void FixedUpdate()
-	{
-		// Move o player
-		rb.MovePosition(rb.position + moveInput.normalized * speed * Time.fixedDeltaTime);
-	}
-
-	void LookAtMouse()
-	{
-		Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-		mousePos.z = 0f; // Z do mouse deve ser zero no mundo 2D
-		Vector3 direction = mousePos - transform.position;
-		float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-
-		// Aplica a rotação com offset
-		transform.rotation = Quaternion.Euler(0f, 0f, angle + rotationOffset);
-	}
+        // Gira o player para olhar o mouse
+        Vector2 lookDir = mousePos - rb.position;
+        float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f;
+        rb.rotation = angle;
+    }
 }

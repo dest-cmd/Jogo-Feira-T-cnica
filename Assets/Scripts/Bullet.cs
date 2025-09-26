@@ -2,13 +2,6 @@
 
 public class Bullet : MonoBehaviour
 {
-    public float moveSpeed = 5f;
-    public Rigidbody2D rb;
-    public Camera cam;
-
-    Vector2 movement;
-    Vector2 mousePos;
-
 	public float speed = 10f; // velocidade da bala
 	public int damage = 1;    // dano que a bala causa
 
@@ -24,14 +17,6 @@ public class Bullet : MonoBehaviour
 	{
 		// Move a bala
 		transform.Translate(direction * speed * Time.deltaTime, Space.World);
-
-        mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
-
-        Vector2 lookDir = mousePos - rb.position;
-
-        float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f;
-
-        rb.rotation = angle;
 	}
 
 	void OnTriggerEnter2D(Collider2D collision)

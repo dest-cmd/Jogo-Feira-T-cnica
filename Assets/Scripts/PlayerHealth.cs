@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-using System.Collections;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -13,11 +12,8 @@ public class PlayerHealth : MonoBehaviour
 	public Image healthBar;
 
 	[Header("Dano")]
-	public int damagePerSecond = 10;   // dano por segundo
+	public int damagePerSecond = 10; // quanto de dano por segundo o inimigo causa
 	private bool isTakingDamage = false;
-
-	private Coroutine damageCoroutine;
-	private GameObject currentEnemy; // inimigo atual que está causando dano
 
 	void Start()
 	{
@@ -45,6 +41,7 @@ public class PlayerHealth : MonoBehaviour
 
 	void Die()
 	{
+		// Carrega a cena "GameOver"
 		SceneManager.LoadScene("GameOver");
 	}
 
@@ -52,49 +49,28 @@ public class PlayerHealth : MonoBehaviour
 	{
 		if (collision.gameObject.CompareTag("Enemy"))
 		{
-			if (!isTakingDamage || currentEnemy != collision.gameObject)
-			{
-				if (damageCoroutine != null)
-					StopCoroutine(damageCoroutine);
-
-				currentEnemy = collision.gameObject;
-				damageCoroutine = StartCoroutine(DamageOverTime());
-			}
+			if (!isTakingDamage)
+				StartCoroutine(DamageOverTime());
 		}
 	}
 
-	IEnumerator DamageOverTime()
+	System.Collections.IEnumerator DamageOverTime()
 	{
 		isTakingDamage = true;
-
-		while (currentEnemy != null)
+		while (true)
 		{
-			// aplica metade do dano por tick (porque o intervalo é 0,5s)
-			int damagePerTick = damagePerSecond / 2;
-			TakeDamage(damagePerTick);
-
-			if (currentEnemy == null || !currentEnemy.activeInHierarchy)
-			{
-				break;
-			}
-
-			yield return new WaitForSeconds(0.5f); // dano a cada 0,5 segundos
+			TakeDamage(damagePerSecond);
+			yield return new WaitForSeconds(1f); // aplica dano a cada 1 segundo
 		}
-
-		isTakingDamage = false;
-		damageCoroutine = null;
 	}
 
 	void OnCollisionExit2D(Collision2D collision)
 	{
-		if (collision.gameObject == currentEnemy)
+		if (collision.gameObject.CompareTag("Enemy"))
 		{
-			if (damageCoroutine != null)
-				StopCoroutine(damageCoroutine);
-
-			damageCoroutine = null;
-			currentEnemy = null;
 			isTakingDamage = false;
+			StopAllCoroutines();
 		}
 	}
 }
+

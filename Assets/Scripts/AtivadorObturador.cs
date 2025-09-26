@@ -1,35 +1,22 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class AtivadorObturador : MonoBehaviour {
+public class AtivadorObturador : MonoBehaviour
+{
+	public ControladorDeOrbitadores controlador;
+	private bool ativado = false;
 
-	public GameObject orbitador;           // arraste o orbitador aqui
-	public string tagObjetoAtivador = "ativador"; // Tag do objeto que ativa o orbitador
-
-	private SpriteRenderer spriteRenderer;
-
-	void Start()
+	void OnTriggerEnter2D(Collider2D collision)
 	{
-		if (orbitador != null)
-		{
-			// Pega o SpriteRenderer do orbitador
-			spriteRenderer = orbitador.GetComponent<SpriteRenderer>();
+		if (ativado) return;
 
-			// Começa invisível
-			if (spriteRenderer != null)
-				spriteRenderer.enabled = false;
-		}
-	}
-
-	void OnCollisionEnter2D(Collision2D collision)
-	{
-		// Verifica se colidiu com o objeto que ativa
-		if (collision.collider.CompareTag(tagObjetoAtivador))
+		if (collision.CompareTag("Player1"))
 		{
-			// Torna visível
-			if (spriteRenderer != null)
-				spriteRenderer.enabled = true;
+			ativado = true;
+			if (controlador != null)
+			{
+				controlador.CriarOrbitador();
+				Destroy(gameObject);
+			}
 		}
 	}
 }
