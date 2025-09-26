@@ -1,29 +1,45 @@
-﻿    using UnityEngine;
+﻿using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public float moveSpeed = 5f;
-    public Rigidbody2D rb;
-    public Camera cam;
+	[Header("Movimento")]
+	public float speed = 5f;                // Velocidade do player
 
-    Vector2 movement;
-    Vector2 mousePos;
+	[Header("Rotação")]
+	public float rotationOffset = -90f;     // Ajuste para alinhar o sprite com a mira
 
-    void Update()
-    {
-        movement.x = Input.GetAxisRaw("Horizontal");
-        movement.y = Input.GetAxisRaw("Vertical");
+	private Rigidbody2D rb;
+	private Vector2 moveInput;
 
-        mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
-    }
+	void Start()
+	{
+		rb = GetComponent<Rigidbody2D>();
+	}
 
-    void FixedUpdate()
-    {
-        rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+	void Update()
+	{
+		// Captura o input de movimento
+		moveInput.x = Input.GetAxisRaw("Horizontal");
+		moveInput.y = Input.GetAxisRaw("Vertical");
 
-        Vector2 lookDir = mousePos - rb.position;
-        float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg;
-        rb.rotation = angle;
-    }
+		// Faz o player olhar para o mouse
+		LookAtMouse();
+	}
+
+	void FixedUpdate()
+	{
+		// Move o player
+		rb.MovePosition(rb.position + moveInput.normalized * speed * Time.fixedDeltaTime);
+	}
+
+	void LookAtMouse()
+	{
+		Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+		mousePos.z = 0f; // Z do mouse deve ser zero no mundo 2D
+		Vector3 direction = mousePos - transform.position;
+		float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+
+		// Aplica a rotação com offset
+		transform.rotation = Quaternion.Euler(0f, 0f, angle + rotationOffset);
+	}
 }
-
