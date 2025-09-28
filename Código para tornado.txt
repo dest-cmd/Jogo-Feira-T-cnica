@@ -1,0 +1,110 @@
+1. 🎯 TornadoSpawner.cs (coloque no personagem)
+using UnityEngine;
+
+public class TornadoSpawner : MonoBehaviour
+{
+    public GameObject tornadoPrefab;
+    public float spawnInterval = 5f;
+
+    private void Start()
+    {
+        InvokeRepeating(nameof(SpawnTornado), 0f, spawnInterval);
+    }
+
+    void SpawnTornado()
+    {
+        // Gera uma direção aleatória em 360 graus (no plano X/Y)
+        Vector2 randomDirection = Random.insideUnitCircle.normalized;
+
+        // Instancia o tornado na posição do personagem
+        GameObject tornado = Instantiate(tornadoPrefab, transform.position, Quaternion.identity);
+
+        // Envia a direção para o tornado
+        tornado.GetComponent<Tornado>().SetDirection(randomDirection);
+    }
+}
+
+
+
+2. 🌪️ Tornado.cs (no prefab do tornado)
+using UnityEngine;
+
+public class Tornado : MonoBehaviour
+{
+    public float speed = 5f;
+    public int damage = 20;
+
+    private Vector2 moveDirection;
+
+    void Start()
+    {
+        // Destroi o tornado após 2 segundos
+        Destroy(gameObject, 2f);
+    }
+
+    public void SetDirection(Vector2 direction)
+    {
+        moveDirection = direction;
+
+        // Faz o tornado rotacionar na direção do movimento (opcional, se tiver sprite com frente)
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.Euler(0, 0, angle);
+    }
+
+    void Update()
+    {
+        transform.Translate(moveDirection * speed * Time.deltaTime, Space.World);
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Enemy"))
+        {
+            EnemyHealth enemyHealth = other.GetComponent<EnemyHealth>();
+            if (enemyHealth != null)
+            {
+                enemyHealth.TakeDamage(damage);
+            }
+        }
+    }
+}
+
+
+3. 🧍 EnemyHealth.cs (igual ao anterior, só por completude)
+using UnityEngine;
+
+public class EnemyHealth : MonoBehaviour
+{
+    public int health = 100;
+
+    public void TakeDamage(int amount)
+    {
+        health -= amount;
+        if (health <= 0)
+        {
+            Destroy(gameObject);
+        }
+    }
+}
+
+onfiguração no Unity (Top-Down)
+
+Prefab do Tornado:
+
+Sprite (uma seta, fumaça girando etc.)
+
+Rigidbody2D (Kinematic)
+
+CircleCollider2D ou BoxCollider2D com IsTrigger = true
+
+Script Tornado.cs
+
+No personagem, adicione o TornadoSpawner.cs e arraste o prefab para o campo tornadoPrefab.
+
+Inimigos:
+
+Devem ter tag "Enemy"
+
+Ter o script EnemyHealth.cs
+
+Ter Collider2D (qualquer) e Rigidbody2D (não kinematic)

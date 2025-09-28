@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
@@ -12,8 +14,13 @@ public class PlayerHealth : MonoBehaviour
 	public Image healthBar;
 
 	[Header("Dano")]
-	public int damagePerSecond = 10; // quanto de dano por segundo o inimigo causa
-	private bool isTakingDamage = false;
+	public int damagePerSecond = 10; // quanto de dano por "tick" (1 segundo)
+
+	// guarda os inimigos atualmente em contato (evita duplicatas)
+	private HashSet<GameObject> enemiesTouching = new HashSet<GameObject>();
+
+	// referência à corrotina para poder parar quando necessário
+	private Coroutine damageCoroutine = null;
 
 	void Start()
 	{
@@ -23,44 +30,35 @@ public class PlayerHealth : MonoBehaviour
 
 	void UpdateHealthUI()
 	{
-		healthBar.fillAmount = (float)currentHealth / maxHealth;
+		if (healthBar != null)
+			healthBar.fillAmount = Mathf.Clamp01((float)currentHealth / maxHealth);
 	}
 
-	void TakeDamage(int amount)
+	public void TakeDamage(int amount)
 	{
+		if (currentHealth <= 0) return; // já morto, evita múltiplas chamadas
 		currentHealth -= amount;
-		if (currentHealth < 0) currentHealth = 0;
-
+		currentHealth = Mathf.Max(currentHealth, 0);
 		UpdateHealthUI();
 
 		if (currentHealth <= 0)
-		{
 			Die();
-		}
 	}
 
 	void Die()
 	{
-		// Carrega a cena "GameOver"
+		// desative controles, animações, etc, se quiser
 		SceneManager.LoadScene("GameOver");
 	}
 
-	void OnCollisionStay2D(Collision2D collision)
+	// Usando colisões 2D (se você usa triggers, troque pelos métodos OnTriggerEnter2D/OnTriggerExit2D)
+	void OnCollisionEnter2D(Collision2D collision)
 	{
 		if (collision.gameObject.CompareTag("Enemy"))
 		{
-			if (!isTakingDamage)
-				StartCoroutine(DamageOverTime());
-		}
-	}
-
-	System.Collections.IEnumerator DamageOverTime()
-	{
-		isTakingDamage = true;
-		while (true)
-		{
-			TakeDamage(damagePerSecond);
-			yield return new WaitForSeconds(1f); // aplica dano a cada 1 segundo
+			enemiesTouching.Add(collision.gameObject);
+			if (damageCoroutine == null)
+				damageCoroutine = StartCoroutine(DamageWhileTouching());
 		}
 	}
 
@@ -68,9 +66,34 @@ public class PlayerHealth : MonoBehaviour
 	{
 		if (collision.gameObject.CompareTag("Enemy"))
 		{
-			isTakingDamage = false;
-			StopAllCoroutines();
+			enemiesTouching.Remove(collision.gameObject);
+
+			// se não houver mais inimigos, para a corrotina
+			if (enemiesTouching.Count == 0 && damageCoroutine != null)
+			{
+				StopCoroutine(damageCoroutine);
+				damageCoroutine = null;
+			}
+		}
+	}
+
+	IEnumerator DamageWhileTouching()
+	{
+		while (true)
+		{
+			// Limpa inimigos destruídos ou desativados (Destroy -> become null; ou SetActive(false))
+			enemiesTouching.RemoveWhere(item => item == null || !item.activeInHierarchy);
+
+			// se não houver mais inimigos, encerra a corrotina
+			if (enemiesTouching.Count == 0)
+			{
+				damageCoroutine = null;
+				yield break;
+			}
+
+			// aplica dano 1 vez por segundo
+			TakeDamage(damagePerSecond);
+			yield return new WaitForSeconds(1f);
 		}
 	}
 }
-
