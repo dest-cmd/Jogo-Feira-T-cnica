@@ -18,12 +18,21 @@ GameObject:
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 4640045438312052}
   - component: {fileID: 114026292744705828}
   - component: {fileID: 212181956715104604}
   - component: {fileID: 50909205010396884}
   - component: {fileID: 61990820255935326}
   m_Layer: 0
+=======
+  - component: {fileID: 4553885317660156}
+  - component: {fileID: 114225014368592186}
+  - component: {fileID: 212973657328851854}
+  - component: {fileID: 50045880027928542}
+  - component: {fileID: 61053832410031284}
+  m_Layer: 8
+>>>>>>> ec2aac940546de57ea1336fddef2c5d9d4ec0905
   m_Name: Inimigo
   m_TagString: Enemy
   m_Icon: {fileID: 0}
