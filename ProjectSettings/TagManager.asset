@@ -10,7 +10,6 @@ TagManager:
   - Player1
   - Enemy2
   - ativar
-  - Obstacle
   layers:
   - Default
   - TransparentFX
@@ -20,7 +19,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Enemy
   - 
   - 
   - 

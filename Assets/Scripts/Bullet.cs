@@ -2,9 +2,8 @@
 
 public class Bullet : MonoBehaviour
 {
-	public float speed = 20f; // velocidade da bala
+	public float speed = 10f; // velocidade da bala
 	public int damage = 1;    // dano que a bala causa
-	public float lifetime = 2f; // tempo até a bala desaparecer
 
 	private Vector2 direction;
 
@@ -12,36 +11,25 @@ public class Bullet : MonoBehaviour
 	public void SetDirection(Vector2 dir)
 	{
 		direction = dir.normalized;
-
-		// calcula o ângulo baseado na direção
-		float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-
-		// aplica a rotação inicial no sprite
-		// -90 porque o eixo "frente" do sprite está apontando para cima (Y)
-		transform.rotation = Quaternion.Euler(0, 0, angle - 90f);
-	}
-
-	void Start()
-	{
-		Destroy(gameObject, lifetime);
 	}
 
 	void Update()
 	{
-		// Move a bala na direção definida
+		// Move a bala
 		transform.Translate(direction * speed * Time.deltaTime, Space.World);
 	}
 
 	void OnTriggerEnter2D(Collider2D collision)
 	{
+		// Checa se colidiu com um inimigo
 		if (collision.CompareTag("Enemy"))
 		{
 			collision.GetComponent<Enemy>().TakeDamage(damage);
-			Destroy(gameObject);
+			Destroy(gameObject); // destrói a bala
 		}
 		else if (collision.CompareTag("Obstacle"))
 		{
-			Destroy(gameObject);
+			Destroy(gameObject); // destrói se bater em paredes ou objetos
 		}
 	}
 }
