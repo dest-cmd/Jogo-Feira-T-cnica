@@ -20,3 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Tela de Carregamento.unity
     guid: 336b104fdffa7d14a8416cc7633eba7a
+  - enabled: 1
+    path: Assets/Scenes/Seletor de fases.unity
+    guid: 8b792fcf67062e44da61e4c815563b27
+  - enabled: 1
+    path: Assets/Scenes/Fase 1.unity
+    guid: 24aee3b5a4ab18343a57e1f516863d80
