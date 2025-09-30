@@ -21,14 +21,6 @@ public class Load_Scene : MonoBehaviour
 
 		SceneManager.LoadScene("Creditos");
 	}
-	public void SelecionarFase(){
-
-		SceneManager.LoadScene("Seletor de fases");
-	}
-	public void Fase1(){
-
-		SceneManager.LoadScene("Fase 1");
-	}
 	public void TeladeCarregamento(){
 
 		SceneManager.LoadScene("Tela de Carregamento");
