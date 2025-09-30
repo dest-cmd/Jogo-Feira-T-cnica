@@ -1,0 +1,70 @@
+Script RagePower.cs
+using UnityEngine;
+
+public class RagePower : MonoBehaviour
+{
+    public float duration = 5f;       // duração da raiva em segundos
+    public float speedMultiplier = 2f; // quanto aumenta a velocidade
+    public float damageMultiplier = 2f; // quanto aumenta o dano
+
+    private bool isRaging = false;
+    private float originalSpeed;
+    private Player player; // supondo que você tenha um script Player com velocidade/dano
+
+    void Start()
+    {
+        player = GetComponent<Player>();
+        if (player == null)
+        {
+            Debug.LogError("Player script não encontrado no GameObject!");
+        }
+    }
+
+    void Update()
+    {
+        // Ativa raiva com tecla, por exemplo R
+        if (Input.GetKeyDown(KeyCode.R) && !isRaging)
+        {
+            StartCoroutine(RageCoroutine());
+        }
+    }
+
+    private System.Collections.IEnumerator RageCoroutine()
+    {
+        isRaging = true;
+
+        // Salva valor original
+        originalSpeed = player.speed;
+
+        // Aplica buffs
+        player.speed *= speedMultiplier;
+        player.damage *= damageMultiplier;
+
+        // Aqui você pode ativar efeitos visuais, partículas ou mudar cor do jogador
+        // ex: GetComponent<SpriteRenderer>().color = Color.red;
+
+        // Espera duração da raiva
+        yield return new WaitForSeconds(duration);
+
+        // Volta aos valores originais
+        player.speed = originalSpeed;
+        player.damage /= damageMultiplier;
+
+        // Desativa efeito visual se houver
+        // ex: GetComponent<SpriteRenderer>().color = Color.white;
+
+        isRaging = false;
+    }
+}
+
+✅ Explicação:
+
+speedMultiplier e damageMultiplier → aumentam velocidade e dano do jogador.
+
+duration → tempo que o buff dura (5 segundos).
+
+isRaging → garante que você não pode ativar Raiva de novo enquanto já está ativo.
+
+Você pode trocar a tecla R para qualquer outra.
+
+Idealmente, o Player.cs deve ter variáveis públicas como speed e damage que o RagePower altera temporariamente.

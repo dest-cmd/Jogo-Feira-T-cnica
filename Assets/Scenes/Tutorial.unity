@@ -1094,8 +1094,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -362.9, y: 235.7}
-  m_SizeDelta: {x: 266.2, y: 35.6}
+  m_AnchoredPosition: {x: -336, y: 247}
+  m_SizeDelta: {x: 214.2, y: 26}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &194154043
 MonoBehaviour:
@@ -1904,6 +1904,21 @@ GameObject:
   m_PrefabParentObject: {fileID: 1068897403401820, guid: 53576dc1cbae23c4dbb1a3cdab0a839f,
     type: 2}
   m_PrefabInternal: {fileID: 1263882905}
+--- !u!114 &366422625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 366422624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c609d11c6074f247bad7530e2972556, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tornadoPrefab: {fileID: 1839804894850068, guid: 7c6e395e6cd71764eb3ba33ea25bf090,
+    type: 2}
+  tornadoSpeed: 5
+  cooldown: 4
 --- !u!4 &366422630 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4523232768652304, guid: 53576dc1cbae23c4dbb1a3cdab0a839f,
@@ -5910,6 +5925,11 @@ Prefab:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 194154043}
+    - target: {fileID: 61806274002844780, guid: 53576dc1cbae23c4dbb1a3cdab0a839f,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 53576dc1cbae23c4dbb1a3cdab0a839f, type: 2}
   m_IsPrefabParent: 0
@@ -10093,7 +10113,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -440, y: 168}
+  m_AnchoredPosition: {x: -244, y: 103}
   m_SizeDelta: {x: 192.4, y: 35.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2030867552
