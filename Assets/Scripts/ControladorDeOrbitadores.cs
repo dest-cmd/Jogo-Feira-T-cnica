@@ -48,7 +48,7 @@ public class ControladorDeOrbitadores : MonoBehaviour
 			orbitadores[i].quantidadeTotal = total;
 
 			float deslocamento = 360f / total;
-			orbitadores[i].SetAnguloInicial(deslocamento);
+			orbitadores[i].SetAnguloInicial(deslocamento * i);
 		}
 	}
 
