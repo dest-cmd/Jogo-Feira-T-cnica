@@ -1454,7 +1454,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f075aeadff37ff44aff41f1b10b17db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controlador: {fileID: 366422633}
+  controlador: {fileID: 0}
 --- !u!61 &278350094
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2125,7 +2125,7 @@ MonoBehaviour:
   bulletSpeed: 20
   fireRate: 0.5
   magazineSize: 10
-  totalAmmo: 999
+  totalAmmo: 50
   reloadTime: 2
   totalAmmoText: {fileID: 2030867552}
   reloadBar: {fileID: 1562642850}
@@ -2161,9 +2161,6 @@ MonoBehaviour:
   moveSpeed: 5
   rb: {fileID: 366422627}
   cam: {fileID: 673624652}
-  maxHealth: 10
-  currentHealth: 0
-  damage: 1
 --- !u!114 &366422632
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2221,7 +2218,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   healthBar: {fileID: 194154043}
-  damagePerSecond: 1
+  damagePerSecond: 10
 --- !u!1 &420694772
 GameObject:
   m_ObjectHideFlags: 0
@@ -2906,7 +2903,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f075aeadff37ff44aff41f1b10b17db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controlador: {fileID: 366422633}
+  controlador: {fileID: 0}
 --- !u!1 &605886854
 GameObject:
   m_ObjectHideFlags: 0
@@ -3154,7 +3151,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 673624649}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 2.09468e-11, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -3163,7 +3160,7 @@ Transform:
   - {fileID: 339246593}
   - {fileID: 1804782236}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &673624654
 MonoBehaviour:
@@ -3176,7 +3173,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 369a0e2532333f442abab9988c65340f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 366422630}
+  player: {fileID: 0}
   offset: {x: 0, y: 0, z: 0}
 --- !u!1 &684066316
 GameObject:
@@ -3645,7 +3642,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f075aeadff37ff44aff41f1b10b17db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controlador: {fileID: 366422633}
+  controlador: {fileID: 0}
 --- !u!61 &791401119
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4358,11 +4355,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93343d4213af89042bdce928a047ced9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 1127891407124336, guid: b3f4b295c58b5a24f88f01d30675fc55,
-    type: 2}
-  spawnRate: 0
+  enemyPrefab: {fileID: 0}
+  spawnRate: 2
   spawnRadius: 8
-  maxEnemies: 1
+  maxEnemies: 10
   spawnOnStart: 1
 --- !u!1 &959045545
 GameObject:
@@ -4393,7 +4389,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f075aeadff37ff44aff41f1b10b17db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controlador: {fileID: 366422633}
+  controlador: {fileID: 0}
 --- !u!61 &959045547
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4651,7 +4647,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f075aeadff37ff44aff41f1b10b17db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controlador: {fileID: 366422633}
+  controlador: {fileID: 0}
 --- !u!61 &975364288
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4982,7 +4978,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f075aeadff37ff44aff41f1b10b17db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controlador: {fileID: 366422633}
+  controlador: {fileID: 0}
 --- !u!61 &992621360
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5167,7 +5163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f075aeadff37ff44aff41f1b10b17db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controlador: {fileID: 366422633}
+  controlador: {fileID: 0}
 --- !u!61 &1019726245
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5279,7 +5275,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f075aeadff37ff44aff41f1b10b17db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controlador: {fileID: 366422633}
+  controlador: {fileID: 0}
 --- !u!61 &1023771032
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5391,7 +5387,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f075aeadff37ff44aff41f1b10b17db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controlador: {fileID: 366422633}
+  controlador: {fileID: 0}
 --- !u!61 &1025342642
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5941,7 +5937,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f075aeadff37ff44aff41f1b10b17db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controlador: {fileID: 366422633}
+  controlador: {fileID: 0}
 --- !u!61 &1223118125
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6418,7 +6414,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f075aeadff37ff44aff41f1b10b17db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controlador: {fileID: 366422633}
+  controlador: {fileID: 0}
 --- !u!61 &1350649203
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6603,7 +6599,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f075aeadff37ff44aff41f1b10b17db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controlador: {fileID: 366422633}
+  controlador: {fileID: 0}
 --- !u!61 &1354485968
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7008,7 +7004,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f075aeadff37ff44aff41f1b10b17db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controlador: {fileID: 366422633}
+  controlador: {fileID: 0}
 --- !u!61 &1408251324
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7691,7 +7687,7 @@ RectTransform:
   - {fileID: 1692759770}
   - {fileID: 194154042}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -7800,7 +7796,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f075aeadff37ff44aff41f1b10b17db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controlador: {fileID: 366422633}
+  controlador: {fileID: 0}
 --- !u!61 &1515654615
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8345,7 +8341,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f075aeadff37ff44aff41f1b10b17db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controlador: {fileID: 366422633}
+  controlador: {fileID: 0}
 --- !u!61 &1621699246
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8611,7 +8607,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4028679347636684, guid: 65ba57cdbd821ae4998e17c211740930, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 65ba57cdbd821ae4998e17c211740930, type: 2}
@@ -10640,7 +10636,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f075aeadff37ff44aff41f1b10b17db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controlador: {fileID: 366422633}
+  controlador: {fileID: 0}
 --- !u!61 &2097105366
 BoxCollider2D:
   m_ObjectHideFlags: 0
