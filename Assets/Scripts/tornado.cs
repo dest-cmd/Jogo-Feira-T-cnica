@@ -12,26 +12,22 @@ public class tornado : MonoBehaviour
 	void Start()
 	{
 		rb = GetComponent<Rigidbody2D>();
-
-		// Pega posição do mouse
-		Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-		mousePos.z = 0;
-
-		// Calcula direção da mira
-		moveDirection = (mousePos - transform.position).normalized;
-
-		// Rotaciona tornado para a direção
-		float angle = Mathf.Atan2(moveDirection.y, moveDirection.x) * Mathf.Rad2Deg;
-		transform.rotation = Quaternion.Euler(0, 0, angle);
-
-		// Destrói após lifetime
 		Destroy(gameObject, lifetime);
 	}
 
 	void FixedUpdate()
 	{
-		// Move usando Rigidbody2D
+		// Movimento constante, independente da física do Player
 		rb.velocity = moveDirection * speed;
+	}
+
+	public void SetDirection(Vector2 dir)
+	{
+		moveDirection = dir.normalized;
+
+		// Rotaciona tornado na direção do movimento
+		float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+		transform.rotation = Quaternion.Euler(0, 0, angle);
 	}
 
 	private void OnTriggerEnter2D(Collider2D other)
@@ -45,14 +41,4 @@ public class tornado : MonoBehaviour
 			}
 		}
 	}
-
-	public void SetDirection(Vector2 dir)
-	{
-		moveDirection = dir.normalized;
-
-		// Rotaciona tornado na direção da mira
-		float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
-		transform.rotation = Quaternion.Euler(0, 0, angle);
-	}
-
 }

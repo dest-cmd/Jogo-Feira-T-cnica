@@ -1,18 +1,18 @@
 fileFormatVersion: 2
-guid: b86ec0bab3e79374f8fa387da6d4381b
+guid: dbed1a0cd30d1924c86b3a6a115522cd
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Captura de tela 2025-09-24 115751_0
-    21300002: Captura de tela 2025-09-24 115751_1
-    21300004: Captura de tela 2025-09-24 115751_2
-    21300006: Captura de tela 2025-09-24 115751_3
-    21300008: Captura de tela 2025-09-24 115751_4
-    21300010: Captura de tela 2025-09-24 115751_5
-    21300012: Captura de tela 2025-09-24 115751_6
-    21300014: Captura de tela 2025-09-24 115751_7
-    21300016: Captura de tela 2025-09-24 115751_8
-    21300018: Captura de tela 2025-09-24 115751_9
-    21300020: Captura de tela 2025-09-24 115751_10
+    21300000: Captura_de_tela_2025-09-24_115751-removebg-preview_0
+    21300002: Captura_de_tela_2025-09-24_115751-removebg-preview_1
+    21300004: Captura_de_tela_2025-09-24_115751-removebg-preview_2
+    21300006: Captura_de_tela_2025-09-24_115751-removebg-preview_3
+    21300008: Captura_de_tela_2025-09-24_115751-removebg-preview_4
+    21300010: Captura_de_tela_2025-09-24_115751-removebg-preview_5
+    21300012: Captura_de_tela_2025-09-24_115751-removebg-preview_6
+    21300014: Captura_de_tela_2025-09-24_115751-removebg-preview_7
+    21300016: Captura_de_tela_2025-09-24_115751-removebg-preview_8
+    21300018: Captura_de_tela_2025-09-24_115751-removebg-preview_9
+    21300020: Captura_de_tela_2025-09-24_115751-removebg-preview_10
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -90,13 +90,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Captura de tela 2025-09-24 115751_0
+      name: Captura_de_tela_2025-09-24_115751-removebg-preview_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 0
-        width: 23
-        height: 22
+        x: 12
+        y: 9
+        width: 8
+        height: 7
       alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -104,140 +104,140 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Captura de tela 2025-09-24 115751_1
+      name: Captura_de_tela_2025-09-24_115751-removebg-preview_1
       rect:
         serializedVersion: 2
-        x: 27
-        y: 0
-        width: 20
-        height: 22
-      alignment: 0
+        x: 32
+        y: 10
+        width: 11
+        height: 11
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Captura de tela 2025-09-24 115751_2
+      name: Captura_de_tela_2025-09-24_115751-removebg-preview_2
       rect:
         serializedVersion: 2
-        x: 51
-        y: 0
-        width: 23
+        x: 52
+        y: 10
+        width: 19
+        height: 15
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captura_de_tela_2025-09-24_115751-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 10
+        width: 24
+        height: 23
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captura_de_tela_2025-09-24_115751-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 9
+        width: 27
         height: 26
-      alignment: 0
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Captura de tela 2025-09-24 115751_3
+      name: Captura_de_tela_2025-09-24_115751-removebg-preview_5
       rect:
         serializedVersion: 2
-        x: 74
-        y: 0
-        width: 36
-        height: 37
-      alignment: 0
+        x: 163
+        y: 12
+        width: 34
+        height: 35
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Captura de tela 2025-09-24 115751_4
+      name: Captura_de_tela_2025-09-24_115751-removebg-preview_6
       rect:
         serializedVersion: 2
-        x: 109
-        y: 0
-        width: 41
-        height: 41
-      alignment: 0
+        x: 210
+        y: 10
+        width: 45
+        height: 48
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Captura de tela 2025-09-24 115751_5
+      name: Captura_de_tela_2025-09-24_115751-removebg-preview_7
       rect:
         serializedVersion: 2
-        x: 154
-        y: 0
-        width: 47
-        height: 51
-      alignment: 0
+        x: 276
+        y: 13
+        width: 54
+        height: 61
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Captura de tela 2025-09-24 115751_6
+      name: Captura_de_tela_2025-09-24_115751-removebg-preview_8
       rect:
         serializedVersion: 2
-        x: 206
-        y: 0
-        width: 56
-        height: 67
-      alignment: 0
+        x: 352
+        y: 10
+        width: 68
+        height: 71
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Captura de tela 2025-09-24 115751_7
+      name: Captura_de_tela_2025-09-24_115751-removebg-preview_9
       rect:
         serializedVersion: 2
-        x: 266
-        y: 0
-        width: 67
-        height: 78
-      alignment: 0
+        x: 442
+        y: 11
+        width: 74
+        height: 74
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Captura de tela 2025-09-24 115751_8
+      name: Captura_de_tela_2025-09-24_115751-removebg-preview_10
       rect:
         serializedVersion: 2
-        x: 340
-        y: 0
-        width: 79
-        height: 86
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Captura de tela 2025-09-24 115751_9
-      rect:
-        serializedVersion: 2
-        x: 435
-        y: 0
-        width: 82
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Captura de tela 2025-09-24 115751_10
-      rect:
-        serializedVersion: 2
-        x: 536
-        y: 0
-        width: 101
-        height: 101
-      alignment: 0
+        x: 542
+        y: 12
+        width: 89
+        height: 89
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []

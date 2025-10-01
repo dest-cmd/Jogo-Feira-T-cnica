@@ -11,6 +11,16 @@ public class Load_Scene : MonoBehaviour
 		SceneManager.LoadScene("Tutorial");
 	}
 
+	public void Seletor_de_fases(){
+
+		SceneManager.LoadScene("Seletor de fases");
+	}
+
+	public void Fase1(){
+
+		SceneManager.LoadScene("Fase 1");
+	}
+
     public void TeladeTitulo()
     {
 
