@@ -5912,7 +5912,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -248.21176, y: 227.15025}
+  m_AnchoredPosition: {x: -129, y: 152.15}
   m_SizeDelta: {x: 190.2, y: 17.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &194154043
@@ -9879,10 +9879,12 @@ GameObject:
   - component: {fileID: 366422630}
   - component: {fileID: 366422631}
   - component: {fileID: 366422629}
+  - component: {fileID: 366422634}
   - component: {fileID: 366422628}
   - component: {fileID: 366422627}
   - component: {fileID: 366422626}
   - component: {fileID: 366422625}
+  - component: {fileID: 366422632}
   - component: {fileID: 366422633}
   m_Layer: 0
   m_Name: Player soldado
@@ -9897,7 +9899,7 @@ BoxCollider2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 366422624}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -10045,6 +10047,21 @@ MonoBehaviour:
   maxHealth: 100
   healthBar: {fileID: 194154043}
   damagePerSecond: 5
+--- !u!114 &366422632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 366422624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42a2d11ddaa1a2a448f0903182f794de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tornadoPrefab: {fileID: 1203853018797418, guid: 62f3bf97c888523489ee153ff50ee06e,
+    type: 2}
+  tornadoSpeed: 5
+  cooldown: 4
 --- !u!114 &366422633
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10059,6 +10076,22 @@ MonoBehaviour:
   orbitadorPrefab: {fileID: 1455666813846046, guid: 7601b5775c3403f4996b138e01fc9797,
     type: 2}
   pontoCentral: {fileID: 366422630}
+--- !u!114 &366422634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 366422624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66dec1c33a74a6e459d019a3e1e83338, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  duration: 5
+  speedMultiplier: 2
+  damageMultiplier: 2
+  activationKey: 114
+  cooldown: 0
 --- !u!1 &367403063
 GameObject:
   m_ObjectHideFlags: 0
