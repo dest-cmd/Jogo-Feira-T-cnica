@@ -9,8 +9,12 @@ public class RaioPlayer : MonoBehaviour
 	public float detectionRadius = 6f;
 	public string enemyTag = "Enemy";
 
+	private bool desbloqueado = false; // começa bloqueado
+
 	void Update()
 	{
+		if (!desbloqueado) return; // se não desbloqueou ainda, sai
+
 		if (atual <= 0)
 		{
 			// só instancia se houver inimigo perto
@@ -37,6 +41,13 @@ public class RaioPlayer : MonoBehaviour
 			}
 		}
 		return false;
+	}
+
+	// Chame esse método ao apertar o botão
+	public void DesbloquearRaio()
+	{
+		Tempo -= 1f;
+		desbloqueado = true;
 	}
 
 	void OnDrawGizmosSelected()

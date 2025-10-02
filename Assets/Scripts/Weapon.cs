@@ -12,13 +12,11 @@ public class Weapon : MonoBehaviour
 
 	[Header("Ammo")]
 	public int magazineSize = 10;     // Balas por pente
-	public int totalAmmo = 50;        // Estoque total
 	private int currentAmmo;          // Balas no pente
 	public float reloadTime = 2f;     // Tempo de recarga
 	private bool isReloading = false; // Controle de recarga
 
 	[Header("UI")]
-	public Text totalAmmoText;        // Mostra estoque total
 	public Image reloadBar;           // Barra de recarga
 	public Text reloadBarText;        // Texto dentro da barra
 
@@ -32,20 +30,16 @@ public class Weapon : MonoBehaviour
 		currentAmmo = magazineSize;
 		reloadBar.fillAmount = 0f;
 		reloadBarText.text = currentAmmo + " / " + magazineSize;
-		UpdateTotalAmmoUI();
 	}
 
 	void Update()
 	{
 		if (isReloading) return;
 
-		// Se não tem munição no pente
+		// Se não tem munição no pente → recarrega automaticamente
 		if (currentAmmo <= 0)
 		{
-			if (totalAmmo > 0)
-				StartCoroutine(Reload());
-			else
-				reloadBarText.text = "Sem munição!";
+			StartCoroutine(Reload());
 			return;
 		}
 
@@ -69,10 +63,9 @@ public class Weapon : MonoBehaviour
 		// Aplica direção e rotação da bala
 		bullet.GetComponent<Bullet>().SetDirection(direction);
 
-		// Atualiza munição
+		// Atualiza munição do pente
 		currentAmmo--;
 		reloadBarText.text = currentAmmo + " / " + magazineSize;
-		UpdateTotalAmmoUI();
 	}
 
 	IEnumerator Reload()
@@ -89,21 +82,12 @@ public class Weapon : MonoBehaviour
 			yield return null;
 		}
 
-		int ammoNeeded = magazineSize - currentAmmo;
-		int ammoToReload = Mathf.Min(ammoNeeded, totalAmmo);
-
-		currentAmmo += ammoToReload;
-		totalAmmo -= ammoToReload;
+		// Sempre recarrega o pente completamente (munição infinita)
+		currentAmmo = magazineSize;
 
 		reloadBar.fillAmount = 0f;
 		reloadBarText.text = currentAmmo + " / " + magazineSize;
 
-		UpdateTotalAmmoUI();
 		isReloading = false;
-	}
-
-	void UpdateTotalAmmoUI()
-	{
-		totalAmmoText.text = totalAmmo.ToString();
 	}
 }

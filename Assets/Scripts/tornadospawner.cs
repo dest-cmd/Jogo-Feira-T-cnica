@@ -8,9 +8,12 @@ public class tornadospawner : MonoBehaviour
 	public float detectionRadius = 6f; // raio de detecção dos inimigos
 
 	private bool canSpawn = true;
+	private bool desbloqueado = false; // começa bloqueado
 
 	void Update()
 	{
+		if (!desbloqueado) return; // se não desbloqueou ainda, sai
+
 		GameObject inimigo = EncontrarInimigoMaisProximo();
 
 		// Se tem inimigo no raio e pode spawnar
@@ -25,7 +28,6 @@ public class tornadospawner : MonoBehaviour
 		Instantiate(tornadoPrefab, spawnPoint.position, spawnPoint.rotation);
 		canSpawn = false;
 		Invoke("ResetCooldown", cooldown);
-
 	}
 
 	void ResetCooldown()
@@ -53,10 +55,16 @@ public class tornadospawner : MonoBehaviour
 		return maisProximo;
 	}
 
+	// Chame esse método ao apertar o botão
+	public void DesbloquearTornado()
+	{
+		cooldown -= 1f;
+		desbloqueado = true;
+	}
+
 	void OnDrawGizmosSelected()
 	{
-		// Gizmo para visualizar o raio de detecção
 		Gizmos.color = new Color(0f, 0.7f, 1f, 0.3f);
 		Gizmos.DrawSphere(transform.position, detectionRadius);
-	}
+		    }
 }

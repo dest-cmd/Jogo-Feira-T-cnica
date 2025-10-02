@@ -4,20 +4,21 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.Experimental.UIElements;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 
 public class BarraExp : MonoBehaviour {
-    public menu scriptmenu;
+	public menu scriptmenu;
 	public float nivelatual = 1;
-    public float nivelmax = 10;
-    public float explevel = 100;
+	public float nivelmax = 5;
+	public float explevel = 100;
 	public float multiplicadorexp = 1.5f;
 	private float expatual;
 	private float explevelatual;
 	private Text nivel;
 	private UnityEngine.UI.Slider slider;
 	private UnityEngine.UI.Image color;
-    void Start () {
+	void Start () {
 
 		nivel = transform.GetComponentInChildren<Text>();
 		slider = transform.GetComponentInChildren<UnityEngine.UI.Slider>();
@@ -26,13 +27,12 @@ public class BarraExp : MonoBehaviour {
 		if(explevelatual == 0)
 		{
 			explevelatual = explevel;
-
 		}
 	}
-	
-	
+
+
 	void Update () {
-		
+
 	}
 
 	public void adicionarexp(float exp)
@@ -43,17 +43,17 @@ public class BarraExp : MonoBehaviour {
 		if(soma < explevelatual)
 		{
 			expatual += exp;
-            
+
 		} else if (soma == explevelatual)
 		{
 			Upar(0);
 			expatual = 0;
-            scriptmenu.qtdExp = 1;
+
 		} else if(soma > explevelatual)
 		{
 			expatual = 0;
 			Upar(sub);
-            scriptmenu.qtdExp = 0;
+
 		}
 		atualizar();
 	}
@@ -62,7 +62,6 @@ public class BarraExp : MonoBehaviour {
 		if (nivelatual >= nivelmax)
 		{
 			expatual = explevelatual;
-            scriptmenu.qtdExp = 1;
 			atualizar();
 			return;
 		}
@@ -71,13 +70,17 @@ public class BarraExp : MonoBehaviour {
 		explevelatual = nextlevel;
 
 		adicionarexp(exp);
-        
-    }
+		scriptmenu.qtdExp = 1;
+		if(nivelatual == 5)
+		{
+			SceneManager.LoadScene("Seletor de fases");
+		}
+	}
 	public void atualizar() {
 		nivel.text = "" + nivelatual;
 		slider.maxValue = explevelatual;
 		slider.value = expatual;
-        
-        color.color = Color.Lerp(Color.white, Color.white, slider.value / slider.maxValue);
+
+		color.color = Color.Lerp(Color.red, Color.green, slider.value / slider.maxValue);
 	}
 }

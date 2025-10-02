@@ -8,9 +8,12 @@ public class BombaPlayer : MonoBehaviour
 	public float raioDeteccao = 8f; // raio para checar inimigos
 
 	private float atual;
+	private bool desbloqueado = false; // começa bloqueado
 
 	void Update()
 	{
+		if (!desbloqueado) return; // se não desbloqueou ainda, sai
+
 		if (atual <= 0)
 		{
 			// procura inimigos por tag
@@ -37,6 +40,13 @@ public class BombaPlayer : MonoBehaviour
 		{
 			atual -= Time.deltaTime;
 		}
+	}
+
+	// Chame esse método ao apertar o botão (UI ou Input)
+	public void DesbloquearBomba()
+	{
+		Tempo -= 1f;
+		desbloqueado = true;
 	}
 
 	void OnDrawGizmosSelected()

@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement; // Importante para carregar cenas
 
 public class Player : MonoBehaviour
 {
@@ -32,7 +33,17 @@ public class Player : MonoBehaviour
 	// Função para receber dano (pode ser chamada pelo inimigo)
 	public void TakeDamage(int damage)
 	{
-		// Aqui você pode reduzir vida ou chamar efeitos visuais
 		Debug.Log("Player recebeu " + damage + " de dano!");
 	}
+
+	// Detecta colisão com triggers
+	private void OnTriggerEnter2D(Collider2D other)
+	{
+		if (other.CompareTag("Portal"))
+		{
+			// Troca para a cena desejada (coloque o nome certo da cena)
+			SceneManager.LoadScene("Seletor de fases"); 
+		}
+	}
 }
+
