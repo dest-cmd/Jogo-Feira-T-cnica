@@ -9,17 +9,17 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1542142758212742}
+  m_RootGameObject: {fileID: 1549580373498836}
   m_IsPrefabParent: 1
---- !u!1 &1542142758212742
+--- !u!1 &1549580373498836
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4028679347636684}
-  - component: {fileID: 114469205898275530}
+  - component: {fileID: 4285760984581256}
+  - component: {fileID: 114862899745156850}
   m_Layer: 0
   m_Name: EnemySpawner
   m_TagString: EnemySpawner
@@ -27,33 +27,32 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4028679347636684
+--- !u!4 &4285760984581256
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1542142758212742}
+  m_GameObject: {fileID: 1549580373498836}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.61, y: -1.78, z: -0.04994351}
+  m_LocalPosition: {x: 11.998749, y: 0.3646071, z: -0.04994351}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114469205898275530
+--- !u!114 &114862899745156850
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1542142758212742}
+  m_GameObject: {fileID: 1549580373498836}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b591d7f5d78c3ac459265ea5b367a45d, type: 3}
+  m_Script: {fileID: 11500000, guid: 93343d4213af89042bdce928a047ced9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 1127891407124336, guid: b3f4b295c58b5a24f88f01d30675fc55,
-    type: 2}
+  enemyPrefab: {fileID: 0}
   spawnRate: 2
   spawnRadius: 8
-  maxEnemies: 10
+  maxEnemies: 100
   spawnOnStart: 1

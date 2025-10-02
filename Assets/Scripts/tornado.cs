@@ -4,30 +4,54 @@ public class tornado : MonoBehaviour
 {
 	public float speed = 5f;
 	public int damage = 20;
-	public float lifetime = 1f;
-
-	private Vector2 moveDirection;
+	public float lifetime = 3f; // quanto tempo o tornado fica vivo
 	private Rigidbody2D rb;
 
 	void Start()
 	{
 		rb = GetComponent<Rigidbody2D>();
+
+		// Procura inimigo mais próximo
+		GameObject inimigoMaisProximo = EncontrarInimigoMaisProximo();
+
+		if (inimigoMaisProximo != null)
+		{
+			// Direção do tornado para o inimigo
+			Vector2 direcao = ((Vector2)inimigoMaisProximo.transform.position - rb.position).normalized;
+			rb.velocity = direcao * speed;
+
+			// Rotaciona tornado na direção do movimento
+			float angle = Mathf.Atan2(direcao.y, direcao.x) * Mathf.Rad2Deg;
+			transform.rotation = Quaternion.Euler(0, 0, angle);
+		}
+		else
+		{
+			// Se não tiver inimigo, segue reto pra frente (opcional)
+			rb.velocity = transform.right * speed;
+		}
+
+		// Destroi tornado após o tempo de vida
 		Destroy(gameObject, lifetime);
 	}
 
-	void FixedUpdate()
+	GameObject EncontrarInimigoMaisProximo()
 	{
-		// Movimento constante, independente da física do Player
-		rb.velocity = moveDirection * speed;
-	}
+		GameObject[] inimigos = GameObject.FindGameObjectsWithTag("Enemy");
+		GameObject maisProximo = null;
+		float menorDistancia = Mathf.Infinity;
+		Vector3 posicaoAtual = transform.position;
 
-	public void SetDirection(Vector2 dir)
-	{
-		moveDirection = dir.normalized;
+		foreach (GameObject inimigo in inimigos)
+		{
+			float distancia = Vector3.Distance(posicaoAtual, inimigo.transform.position);
+			if (distancia < menorDistancia)
+			{
+				menorDistancia = distancia;
+				maisProximo = inimigo;
+			}
+		}
 
-		// Rotaciona tornado na direção do movimento
-		float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
-		transform.rotation = Quaternion.Euler(0, 0, angle);
+		return maisProximo;
 	}
 
 	private void OnTriggerEnter2D(Collider2D other)

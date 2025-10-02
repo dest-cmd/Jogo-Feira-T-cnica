@@ -7,20 +7,17 @@ using UnityEngine;
 public class rage : MonoBehaviour
 {
 	[Header("Config")]
-	public float duration = 5f;            // duração do efeito
-	public float speedMultiplier = 2f;    // multiplicador de velocidade
-	public float damageMultiplier = 2f;   // multiplicador de dano
-	public KeyCode activationKey = KeyCode.R;
-	public float cooldown = 0f;           // tempo até poder usar de novo
+	public float duration = 5f;          // quanto tempo o rage dura
+	public float interval = 10f;         // tempo de espera até o próximo rage
+	public float speedMultiplier = 2f;   // multiplicador de velocidade
+	public float cooldown = 0f;          // se quiser tempo extra depois do intervalo
 
 	private bool isRaging = false;
-	private bool canUse = true;
 
 	// COR
 	private SpriteRenderer spriteRenderer;
 	private Color originalColor;
 
-	// guarda campos/propriedades alterados para poder reverter
 	private class ModifiedEntry
 	{
 		public object target;
@@ -31,9 +28,8 @@ public class rage : MonoBehaviour
 	}
 	private List<ModifiedEntry> modified = new List<ModifiedEntry>();
 
-	// palavras-chave para detecção automática
 	private string[] speedKeys = new string[] { "speed", "move", "vel", "velocity", "walk", "run", "maxspeed" };
-	private string[] damageKeys = new string[] { "damage", "dmg", "attack", "weapon" };
+	private string[] fireRateKeys = new string[] { "firerate" };
 
 	void Awake()
 	{
@@ -42,18 +38,24 @@ public class rage : MonoBehaviour
 			originalColor = spriteRenderer.color;
 	}
 
-	void Update()
+	void Start()
 	{
-		if (Input.GetKeyDown(activationKey) && !isRaging && canUse)
+		StartCoroutine(RageLoop());
+	}
+
+	private IEnumerator RageLoop()
+	{
+		while (true)
 		{
-			StartCoroutine(RageCoroutine());
+			yield return new WaitForSeconds(interval); // espera interval segundos
+
+			yield return StartCoroutine(RageCoroutine());
 		}
 	}
 
 	private IEnumerator RageCoroutine()
 	{
 		isRaging = true;
-		canUse = false;
 
 		// muda cor pra vermelho
 		if (spriteRenderer != null)
@@ -73,14 +75,11 @@ public class rage : MonoBehaviour
 
 		if (cooldown > 0f)
 			yield return new WaitForSeconds(cooldown);
-
-		canUse = true;
 	}
 
 	private void FindAndModify()
 	{
 		modified.Clear();
-
 		MonoBehaviour[] comps = GetComponentsInChildren<MonoBehaviour>(true);
 
 		foreach (var comp in comps)
@@ -133,13 +132,9 @@ public class rage : MonoBehaviour
 		foreach (var m in modified)
 		{
 			if (!m.isProperty)
-			{
 				m.field.SetValue(m.target, m.originalValue);
-			}
 			else
-			{
 				m.prop.SetValue(m.target, m.originalValue, null);
-			}
 		}
 		modified.Clear();
 	}
@@ -158,7 +153,7 @@ public class rage : MonoBehaviour
 	private float GetMultiplierForName(string lowerName)
 	{
 		foreach (var k in speedKeys) if (lowerName.Contains(k)) return speedMultiplier;
-		foreach (var k in damageKeys) if (lowerName.Contains(k)) return damageMultiplier;
+		foreach (var k in fireRateKeys) if (lowerName.Contains(k)) return 1f / speedMultiplier;
 		return 1f;
 	}
 

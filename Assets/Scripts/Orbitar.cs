@@ -19,6 +19,9 @@ public class Orbitar : MonoBehaviour
 	public float raioCollider = 0.5f;
 	public float delayCollider = 0.1f;
 
+	[Header("Dano")]
+	public int dano = 1;  // <<< quantidade de dano que o orbitador causa
+
 	[Header("Controle")]
 	public int indiceOrbita = 0;
 	public int quantidadeTotal = 1;
@@ -78,7 +81,12 @@ public class Orbitar : MonoBehaviour
 
 		if (collision.CompareTag("Enemy"))
 		{
-			Destroy(collision.gameObject);
+			// Tenta pegar o componente Enemy e aplicar dano
+			Enemy inimigo = collision.GetComponent<Enemy>();
+			if (inimigo != null)
+			{
+				inimigo.TakeDamage(dano);
+			}
 		}
 		else if (collision.CompareTag("Obstacle"))
 		{
