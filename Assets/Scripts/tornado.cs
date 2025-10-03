@@ -22,7 +22,7 @@ public class tornado : MonoBehaviour
 
 			// Rotaciona tornado na direção do movimento
 			float angle = Mathf.Atan2(direcao.y, direcao.x) * Mathf.Rad2Deg;
-			transform.rotation = Quaternion.Euler(0, 0, angle);
+
 		}
 		else
 		{

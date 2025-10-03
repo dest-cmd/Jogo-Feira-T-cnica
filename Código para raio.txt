@@ -1,0 +1,157 @@
+✅ Etapas
+
+Você terá os seguintes scripts/prefabs:
+
+LightningRainController.cs → Faz chover raios.
+
+LightningStrike.cs → Script do raio (causa dano + lentidão).
+
+EnemyHealth.cs → Já temos.
+
+Novo script: EnemyMovement.cs (ou qualquer script que controle velocidade) → Para aplicar lentidão.
+
+
+
+📜 1. LightningRainController.cs – (controlador de chuva de raios)
+using UnityEngine;
+
+public class LightningRainController : MonoBehaviour
+{
+    public GameObject lightningPrefab;
+    public float spawnInterval = 3f;
+    public Vector2 areaMin; // canto inferior esquerdo da área
+    public Vector2 areaMax; // canto superior direito da área
+
+    private void Start()
+    {
+        InvokeRepeating(nameof(SpawnLightning), 0f, spawnInterval);
+    }
+
+    void SpawnLightning()
+    {
+        // Posição aleatória na área definida
+        Vector2 spawnPos = new Vector2(
+            Random.Range(areaMin.x, areaMax.x),
+            Random.Range(areaMin.y, areaMax.y)
+        );
+
+        Instantiate(lightningPrefab, spawnPos, Quaternion.identity);
+    }
+}
+
+🛠️ No Unity:
+
+Coloque esse script num GameObject chamado LightningRainManager.
+
+Defina areaMin e areaMax para cobrir a área da sua cena onde os raios podem cair.
+
+Arraste o prefab de raio no campo lightningPrefab.
+
+
+
+⚡ 2. LightningStrike.cs – (comportamento do raio)
+using UnityEngine;
+
+public class LightningStrike : MonoBehaviour
+{
+    public int damage = 30;
+    public float slowDuration = 2f;
+    public float slowAmount = 0.5f; // reduz para 50% da velocidade
+    public float lifetime = 1f;
+
+    private void Start()
+    {
+        Destroy(gameObject, lifetime);
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Enemy"))
+        {
+            EnemyHealth health = other.GetComponent<EnemyHealth>();
+            if (health != null)
+            {
+                health.TakeDamage(damage);
+            }
+
+            EnemyMovement movement = other.GetComponent<EnemyMovement>();
+            if (movement != null)
+            {
+                movement.ApplySlow(slowAmount, slowDuration);
+            }
+        }
+    }
+}
+
+
+
+
+
+🐌 3. EnemyMovement.cs – (comportamento de movimentação com lentidão)
+
+Se já tiver um sistema de movimento, adapte esse exemplo:
+
+using UnityEngine;
+
+public class EnemyMovement : MonoBehaviour
+{
+    public float moveSpeed = 3f;
+
+    private float currentSpeed;
+    private bool isSlowed = false;
+
+    private void Start()
+    {
+        currentSpeed = moveSpeed;
+    }
+
+    void Update()
+    {
+        // Movimento de exemplo (andar para frente)
+        transform.Translate(Vector2.left * currentSpeed * Time.deltaTime);
+    }
+
+    public void ApplySlow(float slowFactor, float duration)
+    {
+        if (!isSlowed)
+        {
+            StartCoroutine(SlowCoroutine(slowFactor, duration));
+        }
+    }
+
+    private System.Collections.IEnumerator SlowCoroutine(float slowFactor, float duration)
+    {
+        isSlowed = true;
+        currentSpeed = moveSpeed * slowFactor;
+
+        yield return new WaitForSeconds(duration);
+
+        currentSpeed = moveSpeed;
+        isSlowed = false;
+    }
+}
+
+
+
+
+🧪 4. Prefab do Raio
+
+LightningPrefab:
+
+Um sprite (ex: flash branco ou sprite animado de raio).
+
+Um CircleCollider2D ou BoxCollider2D (isTrigger = true).
+
+Rigidbody2D (Kinematic).
+
+Script: LightningStrike.cs.
+
+🧪 5. Tag "Enemy" e setup dos inimigos
+
+Inimigos devem ter tag "Enemy".
+
+Ter o script EnemyHealth.
+
+Ter EnemyMovement (ou similar que aceite o efeito de lentidão).
+
+Ter Collider2D e Rigidbody2D.

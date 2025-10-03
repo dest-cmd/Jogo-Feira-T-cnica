@@ -25,7 +25,9 @@ public class tornadospawner : MonoBehaviour
 
 	void SpawnTornado()
 	{
-		Instantiate(tornadoPrefab, spawnPoint.position, spawnPoint.rotation);
+		// Garante que o tornado nasça em pé
+		Instantiate(tornadoPrefab, spawnPoint.position, Quaternion.Euler(0, spawnPoint.rotation.eulerAngles.y, 0));
+
 		canSpawn = false;
 		Invoke("ResetCooldown", cooldown);
 	}

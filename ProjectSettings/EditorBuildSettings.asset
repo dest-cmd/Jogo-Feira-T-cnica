@@ -26,3 +26,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Fase 1.unity
     guid: ac49a2defa946bd4a98934fa805ff4a3
+  - enabled: 1
+    path: Assets/Scenes/GameOver 2.unity
+    guid: ca91cf835c11b32418c32cc23bf30f68
+  - enabled: 1
+    path: Assets/Scenes/GameOver 3.unity
+    guid: 1fa899a451a426a4daa87851c4bee466
+  - enabled: 1
+    path: Assets/Scenes/Fase 2.unity
+    guid: 24aee3b5a4ab18343a57e1f516863d80
+  - enabled: 1
+    path: Assets/Scenes/Fase 3.unity
+    guid: d45dc0b0cfce3454db1f1762a922c9c1
+  - enabled: 1
+    path: Assets/Scenes/vitoria.unity
+    guid: 5743dd8c6f1dbe04b977cbde4655e1e2

@@ -35,6 +35,14 @@ public class Load_Scene : MonoBehaviour
 
 		SceneManager.LoadScene("Fase 1");
 	}
+	public void Fase02(){
+
+		SceneManager.LoadScene("Fase 2");
+	}
+	public void Fase03(){
+
+		SceneManager.LoadScene("Fase 3");
+	}
 
 
 

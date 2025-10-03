@@ -2,10 +2,8 @@
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
-using UnityEngine.Experimental.UIElements;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-
 
 public class BarraExp : MonoBehaviour {
 	public menu scriptmenu;
@@ -18,64 +16,69 @@ public class BarraExp : MonoBehaviour {
 	private Text nivel;
 	private UnityEngine.UI.Slider slider;
 	private UnityEngine.UI.Image color;
-	void Start () {
 
+	void Start () {
 		nivel = transform.GetComponentInChildren<Text>();
 		slider = transform.GetComponentInChildren<UnityEngine.UI.Slider>();
 		color = transform.GetChild(1).transform.GetChild(0).GetComponent<UnityEngine.UI.Image>();
 
-		if(explevelatual == 0)
-		{
+		if(explevelatual == 0) {
 			explevelatual = explevel;
 		}
 	}
-
 
 	void Update () {
 
 	}
 
-	public void adicionarexp(float exp)
-	{
+	public void adicionarexp(float exp) {
 		float soma = expatual + exp;
 		float sub = soma - explevelatual;
 
-		if(soma < explevelatual)
-		{
+		if(soma < explevelatual) {
 			expatual += exp;
-
-		} else if (soma == explevelatual)
-		{
+		} 
+		else if (soma == explevelatual) {
 			Upar(0);
 			expatual = 0;
-
-		} else if(soma > explevelatual)
-		{
+		} 
+		else if(soma > explevelatual) {
 			expatual = 0;
 			Upar(sub);
-
 		}
 		atualizar();
 	}
-	public void Upar(float exp)
-	{
-		if (nivelatual >= nivelmax)
-		{
+
+	public void Upar(float exp) {
+		if (nivelatual >= nivelmax) {
 			expatual = explevelatual;
 			atualizar();
 			return;
 		}
+
 		float nextlevel = explevelatual * multiplicadorexp;
 		nivelatual++;
 		explevelatual = nextlevel;
 
 		adicionarexp(exp);
 		scriptmenu.qtdExp = 1;
-		if(nivelatual == 5)
-		{
-			SceneManager.LoadScene("Seletor de fases");
+
+		// ✅ Correção: agora usa o nome certo da cena "Vitoria"
+		if(nivelatual >= 5) {
+			string cenaAtual = SceneManager.GetActiveScene().name.Trim();
+			Debug.Log("Cheguei no nível " + nivelatual + "! Cena atual: " + cenaAtual);
+
+			if (cenaAtual == "Fase 3") {
+				Debug.Log("Carregando Vitoria...");
+				SceneManager.LoadScene("Vitoria");
+			}
+			else {
+				Debug.Log("Carregando Seletor de fases...");
+				SceneManager.LoadScene("Seletor de fases");
+			}
 		}
-	}
+	} 
+
 	public void atualizar() {
 		nivel.text = "" + nivelatual;
 		slider.maxValue = explevelatual;

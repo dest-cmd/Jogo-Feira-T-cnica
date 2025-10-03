@@ -21,13 +21,17 @@ public class Player : MonoBehaviour
 
 	void FixedUpdate()
 	{
-		// Move o player sem interferência de forças externas
-		rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+		// Move o player via velocidade (evita empurrões estranhos)
+		rb.velocity = movement * moveSpeed;
 
 		// Rotaciona o player para olhar o mouse
 		Vector2 lookDir = mousePos - rb.position;
 		float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f;
 		rb.rotation = angle;
+
+		// Garante que o player pare de se mover sozinho
+		if (movement == Vector2.zero)
+			rb.velocity = Vector2.zero;
 	}
 
 	// Função para receber dano (pode ser chamada pelo inimigo)
@@ -43,7 +47,6 @@ public class Player : MonoBehaviour
 		{
 			// Troca para a cena desejada (coloque o nome certo da cena)
 			SceneManager.LoadScene("Seletor de fases"); 
-		}
-	}
+			       }
+		    }
 }
-

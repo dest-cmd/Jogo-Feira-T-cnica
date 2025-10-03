@@ -70,8 +70,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19c6d58200fe03c49aebfe9756a53f95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0
-  duration: 0.5
+  delay: 1
+  duration: 2
   enemyTag: Enemy
   dano: 5
   raio: {fileID: 4099575946598286}
@@ -109,7 +109,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 444
   m_Sprite: {fileID: 21300000, guid: ac969a7e80d55904d8fa7a522a143708, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
